@@ -10,13 +10,15 @@ Today, in the age of the interlinked web, it's hard to imagine what information 
 
 (TWiT 25:24)
 
-Atkinson uses the language of making computers "accessible", "empowering" people, "expressing" themselves, especially people who have a "passion":
+A bit more concretely, Atkinson uses the language of making computers "accessible", "empowering" people, "expressing" themselves, especially people who have a "passion":
 
 > What Macintosh has been trying to do is make the personal computer more accessible to individual people. The first installment of that has been trying to make it so that the use of an application program is easier. At the same time, it's gotten harder to program the machine. There are a lot of Macintosh owners out there who would like to get more control of their machine and yet find that what it takes to become a certified developer is a pretty hard step to take.
 
 (BAPH 4:03)
 
-> At Apple I built tools to empower creative people. Even MacPaint. And I wanted to empower people to express themselves without requiring them to be heavy-duty programmers. In some way, it was kind of like liberating programming and computers from the priesthood to the layperson. I viewed what was later called HyperCard and was originally called WildCard as being a software erector set where you could plug together premade, prefab pieces and make your own kind of software without actually having to get down in the dirty and get a code generator, compiler, and linker, and all that stuff. What I liked was that a lot of people saw it that way and started making stuff. I've thought that people who have a passion about a particular area, when they're given a tool and they can express that, something beautiful happens. It's very different taking somebody who has already programming skills and trying to instill in them a passion. It's easier to find somebody who's already passionate about something and liberate them to express it.
+> At Apple I built tools to empower creative people. Even MacPaint. And I wanted to empower people to express themselves without requiring them to be heavy-duty programmers. In some way, it was kind of like liberating programming and computers from the priesthood to the layperson. I viewed what was later called HyperCard and was originally called WildCard as being a software erector set where you could plug together premade, prefab pieces and make your own kind of software without actually having to get down in the dirty and get a code generator, compiler, and linker, and all that stuff. What I liked was that a lot of people saw it that way and started making stuff.
+>
+> I've thought that people who have a passion about a particular area, when they're given a tool and they can express that, something beautiful happens. It's very different taking somebody who has already programming skills and trying to instill in them a passion. It's easier to find somebody who's already passionate about something and liberate them to express it.
 
 (Legacy 2:18)
 
@@ -26,9 +28,9 @@ Atkinson uses the language of making computers "accessible", "empowering" people
 
 (BAPH 1:06:19)
 
-This kind of language was adopted by the HyperCard community as well. You can see this consistently throughout the xTalk Interviews, as interviewees define HyperCard as (emphasis mine):
+This kind of language was adopted by the HyperCard community as well. You can see this consistently throughout The xTalk Interviews, as interviewees define HyperCard as (emphasis mine):
 
 - "*Authoring* system for *the rest of us*." (Farmer)
 - "HyperCard was a tool for the Mac that gave *non-programmers* the opportunity to *bring their own visions to life*." (Freedman)
 - "Programming for *the rest of us*." (DeVoto)
-- "OpenXION: It's a scripting language that *enables* *ordinary people* to *do extraordinary things*." (Bettencourt)
+- In describing OpenXION, a project inspired by HyperCard: "*enables* *ordinary people* to *do extraordinary things*." (Bettencourt)

@@ -22,19 +22,19 @@ The biggest cause of the decline, according to Wirfs-Brock, was the web:
 
 (WB)
 
-There was also a marketing impact:
+Java capitalized on this with a marketing campaign:
 
-> At the same time Sun Microsystems’ massive marketing campaign for Java convinced enterprises that Java was the future for both web and standalone client applications. Even though Java never delivered on its client-side promises, the commercial Smalltalk vendors were unable to counter the Java hype cycle and development of new Smalltalk-based enterprise applications stopped.'
+> At the same time Sun Microsystems’ massive marketing campaign for Java convinced enterprises that Java was the future for both web and standalone client applications. Even though Java never delivered on its client-side promises, the commercial Smalltalk vendors were unable to counter the Java hype cycle and development of new Smalltalk-based enterprise applications stopped.
 
 (WB)
 
-Why wasn't there the same push from Smalltalk? I have a theory that a clue is found in something Adele Goldberg said about the founding of ParcPlace:
+Why wasn't there the same marketing push from Smalltalk? I think a clue is found in something Adele Goldberg said about the founding of ParcPlace:
 
 > Products are successful when there’s passion around the product, when you’ve done something that you’re interested in, you care about. To just say that somebody else should [support] it…I don’t think that is the message you want to give to the commercial sector. They want to know that the people who were the inventors cared about it.
 
-(Adele)
+(Goldberg)
 
-Goldberg gave this as a positive reason for the motivation of founding ParcPlace. But on the flip side, it's telling that Alan Kay wasn't involved in ParcPlace. Kay could probably be called the main theoretical driver of Smalltalk, but he wasn't involved in developing it commercially. So there was a split focus in the Smalltalk ecosystem.
+ParcPlace was founded by some of the creators of Smalltalk and this did demonstrate to the commercial sector that some of the inventors cared about it. But, tellingly, Alan Kay was missing. He didn't have an interest in developing Smalltalk commercially. And I think this split focus, plus the fact that the original motivation of the Smalltalk creators wasn't commercial, was apparent to the commercial sector. This is why Smalltalkers didn't push hyperbolic marketing the way Java did.
 
 In 1997 in describing Squeak Ingalls made a point about the hope for adaptability:
 
@@ -44,13 +44,13 @@ In 1997 in describing Squeak Ingalls made a point about the hope for adaptabilit
 
 However, when smartphones were introduced in 2007, Squeak was never adapted to them. Why not? My guess is that it's because smartphones are only *practically* different from desktop computers, not *theoretically* different. In the research focus that the Squeak community has, adapting Squeak to run on smartphones would not advance research of language design and computing. Unfortunately, this means that Smalltalk isn't available for development on what is now the most widespread computing platform.
 
-As another anecdote, I share another note from Goldberg:
+I think another challenge to Smalltalk's adoption today is a lack of documentation. Goldberg saw this problem looking back:
 
 > There was no documentation, there were talks. And in those talks, we would say “if you want to know how to do something, you just read the code, and it pretty much self-documents”—I mean, we were so full of ourselves.
 
-(Adele)
+(Goldberg)
 
-In trying to learn Squeak, this lack of documentation has been a barrier for me as well. There is some information in the Squeak wiki, but it's not consistently organized and edited. Once a developer finishes the _Squeak by Example_ book, generally the advice they're given is "use the Smalltalk browser." While the browser is a powerful tool for learning, it's not the same as having up-to-date and clear documentation--at least for introductory purposes.
+In trying to learn Squeak, this lack of documentation has been a barrier for me. There is some information in the Squeak wiki, but it's not consistently organized and edited. Once a developer finishes the [*Squeak by Example*](https://wiki.squeak.org/squeak/6546) book, generally the advice they're given is "use the Smalltalk browser"--a tool that allows exploring class and method definitions live. While the browser is a powerful tool for learning, it's not the same as having up-to-date and clear documentation--at least for introductory purposes.
 
 In 2001 Ingalls wrote an optimistic take on the evolution of languages:
 
@@ -58,10 +58,10 @@ In 2001 Ingalls wrote an optimistic take on the evolution of languages:
 
 (Design)
 
-For anyone who believes in the benefits of Smalltalk, this principle is hard to square with the reality of Smalltalk's decline--unless the view is taken that over the long term better languages will increase.
+For anyone who believes that Smalltalk has a sound design, this principle is hard to square with the reality of Smalltalk's decline.
 
 In particular, theoretical benefits of Smalltalk's programming model aren't enough to influence businesses to adopt it:
 
-> our customers didn’t really care about Smalltalk, or object-based programming and design, or live programming, or any of the unique technologies Smalltalk brought to the table. They just wanted to replace those green-screens with something that looked like a Windows application.
+> …our customers didn’t really care about Smalltalk, or object-based programming and design, or live programming, or any of the unique technologies Smalltalk brought to the table. They just wanted to replace those green-screens with something that looked like a Windows application.
 
 (WB)

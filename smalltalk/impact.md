@@ -35,13 +35,13 @@ Wirfs-Brock summarizes:
 
 As a result, when we think "Smalltalk has declined," that's not quite correct--many things Smalltalk introduced have persisted, and it's only the things that have *not* spread and persisted that we think of as Smalltalk distinctives that have declined.
 
-A few specific anecdotes about impacts that Smalltalk had. Goldberg describes a scenario where a nontechnical user implemented a Smalltalk system:
+Beyond establishing these patterns, Smalltalk enabled non-technical users to create prototypes:
 
 > I remember saying to him “that is the ugliest piece of code I’ve ever seen.” And he said “oh, that’s okay, because it does what I want it to do, and the professionals down at XSIS are going to rewrite it all; this is the spec.” Suddenly the prototype became the spec.
 
-(Adele)
+(Goldberg)
 
-One of the striking things about how Squeak Smalltalk was created was that it was created in Smalltalk itself--that is, in another Smalltalk version. Ingalls writes:
+The benefit of Smalltalk's tooling is also demonstrated in the creation of Squeak. It was written in Smalltalk itself--that is, in another Smalltalk version:
 
 > Our bootstrapping strategy also depended on being able to debug the Smalltalk code for the Squeak virtual machine by running it under an existing Smalltalk implementation, and this approach was highly successful. Being able to use the powerful tools of the Smalltalk environment saved us weeks of tedious debugging with a C debugger.
 
