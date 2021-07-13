@@ -21,5 +21,4 @@ gem 'minima', github: 'jekyll/minima', ref: '3cdd14dff1216f561c68329e0b7420c2dc9
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'github-pages', '~> 212'
-  gem 'jekyll-feed', '~> 0.12'
 end

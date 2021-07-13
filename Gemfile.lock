@@ -277,7 +277,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 212)
-  jekyll-feed (~> 0.12)
   minima!
   webrick
 
