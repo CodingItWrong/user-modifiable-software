@@ -26,7 +26,7 @@ The next limitation that HyperCard underwent was Apple separating the player and
 
 (Legacy 10:33)
 
-Ultimately, HyperCard was killed entirely due to business pressures:
+Ultimately, HyperCard was killed entirely, because of business pressures:
 
 > At a certain time in Apple's life Apple was close to just plain folding and they had to do some really severe pruning to keep the plant from dying. And they just sort of cut everything that wasn't essential, and said 'we're only gonna do a few things and we're gonna do them well' and HyperCard didn't make the cut. It wasn't essential. And so it kind of got abandoned."
 
