@@ -41,7 +41,7 @@ Atkinson uses similar language tongue-in-cheek when referring to extending Hyper
 So Atkinson sees a role for programmers and set up HyperCard to allow it to be extended, but at the same time he wants to emphasize just how high-effort it is to create software in that way. In HyperCard it is only the most specialized places that that kind of programming is used, and elsewhere you can use a much higher-level language.
 
 ## Organizing Data
-FileMaker (which predates HyperCard) and Microsoft Access (which was released in 1992) are two examples of personal data systems that focus on tracking and working with data and de-emphasize creating interactive experiences.
+[FileMaker](https://www.claris.com/filemaker/) (which predates HyperCard) and [Microsoft Access](http://office.microsoft.com/access) (which was released in 1992) are two examples of personal data systems that focus on tracking and working with data and de-emphasize creating interactive experiences.
 
 ## Sharing Information
 If HyperCard allowed people to share information, the web took that ability and supercharged it by providing instantaneous access.
@@ -115,7 +115,7 @@ What options are there? Atkinson himself describes iBooks Author as a successor:
 
 However, in 2020 Apple discontinued iBooks Author and recommended as a replacement Pages, a standard word processor.
 
-There have been a number of fairly direct successors to HyperCard, including SuperCard, MetaCard, Runtime Revolution, and curently LiveCode. Atkinson describes how close it is:
+There have been a number of fairly direct successors to HyperCard, including SuperCard, MetaCard, Runtime Revolution, and curently [LiveCode](https://livecode.com/). Atkinson describes how close it is:
 
 > LiveCode is probably the most complete sort of HyperCard-on-steroids. It's a lot more, it's not just HyperCard…It's not as easy and approachable as HyperCard was, you can't just walk up to it and have a casual relationship. You kinda have to dedicate a little time into learning how to use the system" (Legacy 1:02:40)
 
@@ -125,7 +125,7 @@ A quote by Bettencourt about the limitations of earlier tools applies to LiveCod
 
 (xTalk, Bettencourt)
 
-LiveCode does have an open source version. But this hasn't had the same impact as HyperCard, for several reasons:
+LiveCode does have [an open source version](https://livecode.org/). But this hasn't had the same impact as HyperCard, for several reasons:
 
 - As Atkinson said about SuperCard, "but it's not like having it in the box" (Legacy 46:33). So people would need to know to download its open source version to use it.
 - It builds compiled apps. This means that users can't tweak and modify them, they can't inspect them to see how they're written, and they don't even automatically see that they can build software using LiveCode.

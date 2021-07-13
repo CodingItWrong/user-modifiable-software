@@ -5,7 +5,8 @@ title: 'HyperCard > Properties'
 What defining characteristics influence how HyperCard uniquely works?
 
 ## Interactive Document
-So what HyperCard is attempting to do here is to offer a new media that's between the application on the one hand and the document on the other. In Macintosh, a document contains information. It's made by a user and that information is relatively passive: it's acted upon by the application over here. The application has lots of interaction in it; usually not very much information. And the application can only be made by a programmer. What HyperCard offers is a new format in between--the stackware format--that has information like a document and has interaction like an application program. And yet it's simple enough that users can put them together using an approach that I call 'the software erector set.'
+
+>So what HyperCard is attempting to do here is to offer a new media that's between the application on the one hand and the document on the other. In Macintosh, a document contains information. It's made by a user and that information is relatively passive: it's acted upon by the application over here. The application has lots of interaction in it; usually not very much information. And the application can only be made by a programmer. What HyperCard offers is a new format in between--the stackware format--that has information like a document and has interaction like an application program. And yet it's simple enough that users can put them together using an approach that I call 'the software erector set.'
 
 (BAPH 4:44)
 
@@ -26,7 +27,11 @@ Atkinson's focus on what functionality to put into HyperCard was a simple comple
 
 (BAPH 40:30)
 
-- "The second part was reporting on portions of a stack. I know of several vendors who are putting together report-generation programs that do much fancier reporting than is in HyperCard. I didn't really want HyperCard to turn into this big grandiose database with 50 zillion things you'd have to learn about report generation." (BAPH 1:19:05)
+There was an intentional decision to exclude more specialized functionality, such as reporting:
+
+> …reporting on portions of a stack. I know of several vendors who are putting together report-generation programs that do much fancier reporting than is in HyperCard. I didn't really want HyperCard to turn into this big grandiose database with 50 zillion things you'd have to learn about report generation.
+
+(BAPH 1:19:05)
 
 ## User Level
 HyperCard has a concept of user levels where you choose the level you want to operate at. The levels are:
@@ -48,16 +53,20 @@ Here's Atkinson's introduction to the specifics of each level:
 The levels function as a "growth path":
 
 > But there's a growth path here that you can go further than [the typing level]
-
+>
 > If and when you decide to go beyond the typing level- …I think there are a lot of people who will be using HyperCard as an access tool to get at stacks that other people have made, and there's a gentle gradual path to allow those people to become authors of information as opposed to just users, but it's okay to stay a user of information. Think how many Walkmen Sony sells, and they don't record. HyperCard is both a playback tool and an authoring tool.
 
 The levels are made to build on one another. For example, at the authoring level, you can already work with interactive functionality by moving around buttons with the scripts that come with them:
 
-- "Now, the beauty of this is that when I pasted that button, I didn't get just a picture of a button: I got its intellienge to come with it. That's half of the beauty of the erector set approach, is that you're actually moving around capability…So this is sort of how the software erector set approach works at making interactive information. You copy and paste or modify and paint yourself images until it looks the way you want it. And you copy and paste buttons until it acts the way you want it." (BAPH 31:45)
+> Now, the beauty of this is that when I pasted that button, I didn't get just a picture of a button: I got its intellienge to come with it. That's half of the beauty of the erector set approach, is that you're actually moving around capability…So this is sort of how the software erector set approach works at making interactive information. You copy and paste or modify and paint yourself images until it looks the way you want it. And you copy and paste buttons until it acts the way you want it.
+
+(BAPH 31:45)
 
 And when basic interactive content is created with a GUI in authoring, it's implemented as a script, so you can see the script that was generated, learn, and modify it:
 
-- "If we look at the button that was made when we said 'Link To', we can open up that. Now, we just chose "Link To' from the dialog, but it wrote a little script for us that said 'on mouseup go to card such-and-so', go to a particular card. We could modify this script…" (BAPH 36:50)
+> If we look at the button that was made when we said 'Link To', we can open up that. Now, we just chose "Link To' from the dialog, but it wrote a little script for us that said 'on mouseup go to card such-and-so', go to a particular card. We could modify this script…
+
+(BAPH 36:50)
 
 One effect of the user level approach is to aid gradual learning:
 
@@ -143,7 +152,8 @@ As a result of the openness of HyperCard, even the explicit teaching content is 
 (xTalk, Bettencourt)
 
 ## Automatic Persistence
-One minor point is that persistence was automatic. (Keep this in due to parallel with Smalltalk):
+
+One aspect of HyperCard that is easy to miss is that persistence was automatic. The setup of the stack, text entry, and even which card you were on was automatically saved:
 
 > They didn't have to worry about saving the field out to the disk and all that--I take care of that. There were high-level things, automatically retained information, you put something into a field and it's there, and if you unplug the computer it's still there. In fact, that was one of my goals, I didn't like the way you had to save documents. So my idea was, if you have done something, and you unplug the computer from the wall, it has to have everything we've done up to within a few seconds. So it always was trickling stuff out…Having to save a document was a mistake.
 
