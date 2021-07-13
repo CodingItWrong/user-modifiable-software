@@ -2,6 +2,10 @@
 title: 'Conclusion'
 ---
 
+Consider drawing parallels, like programming by refinement and automatic storage
+
+***
+
 How do Smalltalk and HyperCard empower people?
 
 Smalltalk attempts to empower people by creating an environment that makes it easier to learn to program. When using software, you can inspect it to see what objects are behind it. To make adjustments to it or to create your own software, you will need to begin programming. Once you do, there is no limit to what you can customize, because almost everything in the Smalltalk environment is written in itself.
@@ -24,7 +28,7 @@ I think there are a few reasons not to take this view. First of all, the fact th
 
 As an example of adapting software to yourself, I recently switched from using Twitter to Mastodon, an open-source social network. I found a certain feature, the "federated timeline", that I usually regretted looking at due to content I objected to, but I found myself continually tempted to check it to pass the time. I couldn't find a client app that provided a setting for me to hide the federated timeline. So I forked an open-source iOS client app and made a one-line change to remove the button to show the federated timeline. This has resulted in a much better experience for my mental health. Instead of needing to exert the effort to resist the temptation to tap that button, or endure the consequences of looking at content I didn't want to, I was able to adapt my software to meet my needs. Now, I was only able to jump through the hoops to accomplish this this because I've done iPhone development in the past; non-developers don't have this option.
 
-Second, Henry Ford and Steve Jobs famously designed products based not on what people were asking for but based on a vision for what they would really benefit from. Now, I'm no visionary like Ford or Jobs, but I don't have to be: all I have to do is look at the impact Smalltalk and HyperCard have had in the past.
+Second, Henry Ford and Steve Jobs famously designed products based not on what people were asking for but based on a vision for what they would really benefit from. Now, I'm no visionary like Ford or Jobs, but I don't have to be: all I have to do is look at the impact Smalltalk and HyperCard have had in the past. I read the examples of children and non-technical users creating things in Smalltalk and HyperCard, the ways that salespeople could record what they knew to automate a process, the way a student-teacher was able to create a simulation to teach others. When I read these, I see the potential that regular people have to use the power of the computer to make their lives and others' lives better, if they're only given software that empowers them.
 
 Bill Atkinson said:
 
