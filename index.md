@@ -2,6 +2,8 @@
 layout: home
 ---
 
+Examining Smalltalk and HyperCard as systems that empower users to modify their software.
+
 - [Introduction](introduction.html)
 
 |HyperCard|Smalltalk|
