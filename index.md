@@ -6,13 +6,13 @@ Examining Smalltalk and HyperCard as systems that empower users to modify their 
 
 - [Introduction](introduction.html)
 
-|HyperCard|Smalltalk|
+|Smalltalk|HyperCard|
 |---------|---------|
-| [Motivation](hypercard/motivation.html) | [Motivation](smalltalk/motivation.html) |
-| [Properties](hypercard/properties.html) | [Properties](smalltalk/properties.html) |
-| [Impact](hypercard/impact.html) | [Impact](smalltalk/impact.html) |
-| [Challenges](hypercard/challenges.html) | [Challenges](smalltalk/challenges.html) |
-| [Competitors and Successors](hypercard/competitors-and-successors.html) | [Competitors and Successors](smalltalk/competitors-and-successors.html) |
+| [Motivation](smalltalk/motivation.html) | [Motivation](hypercard/motivation.html) |
+| [Properties](smalltalk/properties.html) | [Properties](hypercard/properties.html) |
+| [Impact](smalltalk/impact.html) | [Impact](hypercard/impact.html) |
+| [Challenges](smalltalk/challenges.html) | [Challenges](hypercard/challenges.html) |
+| [Competitors and Successors](smalltalk/competitors-and-successors.html) | [Competitors and Successors](hypercard/competitors-and-successors.html) |
 
 - [Conclusion](conclusion.html)
 - [Bibliography](bibliography.html)
