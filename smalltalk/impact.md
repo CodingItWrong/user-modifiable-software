@@ -37,9 +37,9 @@ As a result, when we think "Smalltalk has declined," that's not quite correct--m
 
 Beyond establishing these patterns, Smalltalk enabled non-technical users to create prototypes:
 
-> I remember saying to him “that is the ugliest piece of code I’ve ever seen.” And he said “oh, that’s okay, because it does what I want it to do, and the professionals down at XSIS are going to rewrite it all; this is the spec.” Suddenly the prototype became the spec.
+> I remember meeting this gentleman who was by profession a photographer. And he showed me this prototype that they had been working on…ultimately, it was the very first spreadsheet…and it was a remarkable tour de force. And I said to him "I don't understand how you did that." I mean, I just couldn't believe this non-professional. He said "well, I'll show you"…I remember saying to him “that is the ugliest piece of code I’ve ever seen.” And he said “oh, that’s okay, because it does what I want it to do, and the professionals…are going to rewrite it all; this is the spec.” Suddenly the prototype became the spec.
 
-(Goldberg)
+(Goldberg 41:20)
 
 The benefit of Smalltalk's tooling is also demonstrated in the creation of Squeak. It was written in Smalltalk itself--that is, in another Smalltalk version:
 

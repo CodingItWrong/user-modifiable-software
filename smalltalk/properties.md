@@ -47,9 +47,13 @@ Smalltalk's architecture supports what Adele Goldberg describes as "programming 
 
 > If I give you something you can play with and extend…that’s easier than giving you nothing and saying “make something.”…When you start with an object that does something, and then you can put many objects like those together and have them interact, and then extend and make them behave a little bit differently, you can take a very incremental approach to learning how to control a computer system.
 
+(Goldberg 14:22)
+
 And again:
 
-> …give them a starting point, and really help them learn how to refine it. And we were really exploring this programming by refinement, and really seeing a whole new software engineering process, where you programmed iteratively…
+> It fit right into the curriculum ideas for how to teach kids: give them a starting point, and really help them learn how to refine it. And we were really exploring this programming by refinement, and really seeing a whole new software engineering process, where you programmed iteratively. Started out with a prototype, and you kept changing it and working it until it was what you wanted, and then you started figuring out where performance could be improved.
+
+(Goldberg 31:20)
 
 As suggested in Goldberg's quote, extending software happens in Smalltalk in several different ways:
 

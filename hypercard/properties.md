@@ -156,7 +156,7 @@ As a result of the openness of HyperCard, even the explicit teaching content is 
 
 One crucial aspect of HyperCard's impact isn't in the software itself but in how it was distributed. After it was released, it was included "in the box with every Mac". Atkinson considered this a necessary part:
 
-> It was an exchange medium…You want people to be sharing stuff. They all have to have the software that it takes at least to play it, but hopefully to be able to author it also. So I worked out an arrangement with Apple that it would be bundled free, be in the box with every Mac
+> It was an exchange medium…You want people to be sharing stuff. They all have to have the software that it takes at least to play it, but hopefully to be able to author it also. So I worked out an arrangement with Apple that it would be bundled free, be in the box with every Mac…
 
 (Legacy 10:33)
 

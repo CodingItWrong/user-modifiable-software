@@ -32,7 +32,7 @@ Why wasn't there the same marketing push from Smalltalk? I think a clue is found
 
 > Products are successful when there’s passion around the product, when you’ve done something that you’re interested in, you care about. To just say that somebody else should [support] it…I don’t think that is the message you want to give to the commercial sector. They want to know that the people who were the inventors cared about it.
 
-(Goldberg)
+(Goldberg 58:12)
 
 ParcPlace was founded by some of the creators of Smalltalk and this did demonstrate to the commercial sector that some of the inventors cared about it. But, tellingly, Alan Kay was missing. He didn't have an interest in developing Smalltalk commercially. And I think this split focus, plus the fact that the original motivation of the Smalltalk creators wasn't commercial, was apparent to the commercial sector. This is why Smalltalkers didn't push hyperbolic marketing the way Java did.
 
@@ -46,9 +46,9 @@ However, when smartphones were introduced in 2007, Squeak was never adapted to t
 
 I think another challenge to Smalltalk's adoption today is a lack of documentation. Goldberg saw this problem looking back:
 
-> There was no documentation, there were talks. And in those talks, we would say “if you want to know how to do something, you just read the code, and it pretty much self-documents”—I mean, we were so full of ourselves.
+> There was no documentation: there were talks. And in those talks, we would say “if you want to know how to do something, you just read the code, and it pretty much self-documents”—I mean, we were so full of ourselves.
 
-(Goldberg)
+(Goldberg 41:44)
 
 In trying to learn Squeak, this lack of documentation has been a barrier for me. There is some information in the Squeak wiki, but it's not consistently organized and edited. Once a developer finishes the [*Squeak by Example*](https://wiki.squeak.org/squeak/6546) book, generally the advice they're given is "use the Smalltalk browser"--a tool that allows exploring class and method definitions live. While the browser is a powerful tool for learning, it's not the same as having up-to-date and clear documentation--at least for introductory purposes.
 
