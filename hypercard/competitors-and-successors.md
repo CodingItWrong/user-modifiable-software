@@ -1,3 +1,7 @@
+---
+title: 'HyperCard > Competitors and Successors'
+---
+
 What other products emerged to compete with HyperCard and/or carry on its legacy?
 
 HyperCard's explosion of popularity was partially due to how many different needs it met. Oren writes:

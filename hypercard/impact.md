@@ -1,3 +1,7 @@
+---
+title: 'HyperCard > Impact'
+---
+
 What were some people able to accomplish as a result of HyperCard?
 
 - "I'm going to show you some examples of stacks that people have put together. And a lot of this has been people that haven't been programmers, people that haven't had the power of controlling or manipulating their Macintosh, and are suddenly waking up to some of their creative ideas that they've had and now can express." (BAPH 45:43)

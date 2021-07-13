@@ -1,3 +1,7 @@
+---
+title: 'Smalltalk > Challenges'
+---
+
 What caused Smalltalk's decline? Smalltalk has always been a controversial platform so there are surely different views. This page doesn't attempt to survey all viewpoints, but only to record the credible information I've found so far.
 
 Allen Wirfs-Brock records that Smalltalk's industry adoption rapidly declined:

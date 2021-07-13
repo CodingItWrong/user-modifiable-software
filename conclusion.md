@@ -1,3 +1,7 @@
+---
+title: 'Conclusion'
+---
+
 How do Smalltalk and HyperCard empower people?
 
 Smalltalk attempts to empower people by creating an environment that makes it easier to learn to program. When using software, you can inspect it to see what objects are behind it. To make adjustments to it or to create your own software, you will need to begin programming. Once you do, there is no limit to what you can customize, because almost everything in the Smalltalk environment is written in itself.

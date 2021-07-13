@@ -1,3 +1,7 @@
+---
+title: 'Introduction'
+---
+
 When thinking about the concept of "power" in software, we often think about computational power: how much computation can be done with given resources. If we abstract this out a bit, power in software relates to getting more done with less. But computational power isn't the only kind of power like this that exists in software. There is another kind of power: allowing people to accomplish more with less effort. You might refer to to this kind of power as "empowerment".
 
 When it comes to empowering people, computing has been through a number of phases:

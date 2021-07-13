@@ -1,3 +1,7 @@
+---
+title: 'Smalltalk > Motivation'
+---
+
 Buck and Latta summarize Smalltalk as follows:
 
 > Smalltalk is an object-oriented programming language, and it was developed back in the early 1970s at Xerox Parc in California. It was a team called the Learning Research Group at Xerox, and they built it mostly to teach kids how to program computers."
@@ -42,4 +46,4 @@ Next, Smalltalk is intended to work with the way the human mind has evolved to w
 
 What is this design that works with the mind? Objects.
 
-> We have said that a computer system should provide models that are compatible with those in the mind. Therefore: Objects: A computer language should support the concept of "object" and provide a uniform means for referring to the objects in its universe. 
+> We have said that a computer system should provide models that are compatible with those in the mind. Therefore: Objects: A computer language should support the concept of "object" and provide a uniform means for referring to the objects in its universe.

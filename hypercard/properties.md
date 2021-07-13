@@ -1,3 +1,7 @@
+---
+title: 'HyperCard > Properties'
+---
+
 What defining characteristics influence how HyperCard uniquely works?
 
 ## Interactive Document
@@ -45,7 +49,7 @@ The levels function as a "growth path":
 
 > But there's a growth path here that you can go further than [the typing level]
 
-> If and when you decide to go beyond the typing level- …I think there are a lot of people who will be using HyperCard as an access tool to get at stacks that other people have made, and there's a gentle gradual path to allow those people to become authors of information as opposed to just users, but it's okay to stay a user of information. Think how many Walkmen Sony sells, and they don't record. HyperCard is both a playback tool and an authoring tool. 
+> If and when you decide to go beyond the typing level- …I think there are a lot of people who will be using HyperCard as an access tool to get at stacks that other people have made, and there's a gentle gradual path to allow those people to become authors of information as opposed to just users, but it's okay to stay a user of information. Think how many Walkmen Sony sells, and they don't record. HyperCard is both a playback tool and an authoring tool.
 
 The levels are made to build on one another. For example, at the authoring level, you can already work with interactive functionality by moving around buttons with the scripts that come with them:
 

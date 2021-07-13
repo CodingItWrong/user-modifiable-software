@@ -1,3 +1,7 @@
+---
+title: 'HyperCard > Motivation'
+---
+
 What was the goal of HyperCard, and what motivation led to it being created?
 
 Today, in the age of the interlinked web, it's hard to imagine what information siloing was like before. But there were bodies of knowledge not accessible to one another. HyperCard originated with the motivation to link this knowledge:

@@ -1,3 +1,7 @@
+---
+title: 'HyperCard > Challenges'
+---
+
 What challenges led to HyperCard dying?
 
 HyperCard can't be run on modern operating systems; it can only be run on older Macs or by emulating an older Mac. Why is this? Ultimately, HyperCard was commercial software, and at a certain point it was no longer advantageous to the company that owned it to continue developing it.

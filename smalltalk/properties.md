@@ -1,3 +1,9 @@
+---
+title: 'Smalltalk > Properties'
+---
+
+What defining characteristics influence how Smalltalk uniquely works?
+
 ## Everything is an Object
 For developers who are used to what Smalltalkers would call languages that are "not fully object-oriented," it can be surprising to see Smalltalk's insistence that *everything* is an object, down to the simplest primitive integer or boolean.
 
@@ -18,7 +24,7 @@ The phrase "novices who just want to experiment with their own class of numbers"
 - "Just want to experiment." In this view, trying out a new way to handle numbers should not be a massive undertaking requiring creating one's own programming language. *A novice should be able to do a quick experiment handling numbers in a totally different way.*
 
 This is the kind of research, the kind of flexibility, that Smalltalk is designed to support. It is not to say that every user of Smalltalk will want to change the way numbers work; it is to say that *someone* will want to change the way *anything* works, and so everything should be an object written in Smalltalk that receives messages, so that it can be changed.
-	
+
 ## Automatic Storage Management
 *Design Principles Behind Smalltalk* says:
 

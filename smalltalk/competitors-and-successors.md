@@ -1,3 +1,7 @@
+---
+title: 'Smalltalk > Competitors and Successors'
+---
+
 What other products emerged to compete with Smalltalk and/or carry on its legacy?
 
 Smalltalk's first contemporary competitor was C++. In *Object Thinking*, David West describes C++ and Smalltalk as two different successors to Simula, taking object-oriented programming in two different directions. (Advocates of Smalltalk would argue that C++ is not true object-oriented programming, and they have Alan Kay, who coined the term, in their corner.)

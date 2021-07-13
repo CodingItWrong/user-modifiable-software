@@ -1,3 +1,7 @@
+---
+title: 'Smalltalk > Impact'
+---
+
 What were some people able to accomplish as a result of Smalltalk?
 
 Wirfs-Brock summarizes Smalltalk's impact in broad terms:
@@ -33,7 +37,7 @@ As a result, when we think "Smalltalk has declined," that's not quite correct--m
 
 A few specific anecdotes about impacts that Smalltalk had. Goldberg describes a scenario where a nontechnical user implemented a Smalltalk system:
 
-> I remember saying to him “that is the ugliest piece of code I’ve ever seen.” And he said “oh, that’s okay, because it does what I want it to do, and the professionals down at XSIS are going to rewrite it all; this is the spec.” Suddenly the prototype became the spec. 
+> I remember saying to him “that is the ugliest piece of code I’ve ever seen.” And he said “oh, that’s okay, because it does what I want it to do, and the professionals down at XSIS are going to rewrite it all; this is the spec.” Suddenly the prototype became the spec.
 
 (Adele)
 
