@@ -20,4 +20,4 @@ For quotes that may be useful in the future, but don't fit into a page here yet.
 
 > It was an exchange medium…You want people to be sharing stuff. They all have to have the software that it takes at least to play it, but hopefully to be able to author it also. So I worked out an arrangement with Apple that it would be bundled free, be in the box with every Mac, and I took less of a royalty because of that. That was a gift that I made.
 
-(Legacy 10:33)
+(Legacy 10:37)

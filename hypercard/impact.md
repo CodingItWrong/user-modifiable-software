@@ -38,7 +38,7 @@ At that same event, a former teacher described:
 
 > My favorite stack that someone designed was a credentialed student, and he wanted to make a stack that would help new teachers understand how to do classroom management. He didn't make a tutorial, what he made was a simulation, which said 'you're at the front of the class, a student in the back starts throwing his pencil, what do you do?' And then gave a tree. So it was kind of an adventure game for classroom management. And it was the best way I think to understand good and bad decisions in classroom management that I've ever seen. And the format, the platform of being able to make a decision and see--obviously, that's simulations, make a decision and see the outcome.
 
-(Legacy 47:10)
+(Legacy 47:14)
 
 A second-level impact of how easy it was to create software in HyperCard is the sharing economy that resulted:
 

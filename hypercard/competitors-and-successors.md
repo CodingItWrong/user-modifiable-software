@@ -34,7 +34,7 @@ Back when HyperCard was introduced, Atkinson pointed out in a tongue-in-cheek wa
 
 > This programming level means you go and you buy a compiler and you learn how to write C or Pascal or assembly language and you learn how to call the Macintosh Toolkit interface, and a couple years later you're ready to write a little piece of program that can then be called from the scripting language as though it were built in. It's very easy, just as we can extend the button library by writing scripts, we can extend the scripting language by native code.
 
-(BAPH 38:36)
+(BAPH 38:46)
 
 So Atkinson sees a role for programmers and set up HyperCard to allow it to be extended, but at the same time he wants to emphasize just how high-effort it is to create software in that way. In HyperCard it is only the most specialized places that that kind of programming is used, and elsewhere you can use a much higher-level language.
 
@@ -54,7 +54,7 @@ Mosaic, the browser that eventually developed into Netscape Navigator, was also 
 
 > Mosaic came out six years after HyperCard, although it didn't copy any of the code. Marc Andreessen wrote me a sweet little note saying "thank you for the inspiration," just for the ideas. So, the web was instead of a stack of card, it was just pages. And pages had graphics on it, and text on it, and buttons that could take to someplace else.
 
-(TWiT 28:12)
+(TWiT 28:15)
 
 Atkinson contrasts HyperCard's model with the web:
 
@@ -72,13 +72,13 @@ But he sees the impact:
 
 > And I feel that maybe the biggest impact HyperCard has had is actually not on the HyperCard stacks that people made but how it's shifted people's lives and how it's influenced the development of further things, like the designers of Mosaic said that HyperCard was a great inspiration to them. And so I think the biggest expression of the success of HyperCard really is in how we now have this whole World Wide Web.
 
-(Legacy 5:09)
+(Legacy 5:48)
 
 But the web has at least one difference from HyperCard:
 
 > There was a little difference that HyperCard was always an authoring environment, never just a browser. I didn't separate the guys who consume the information from the guys who create it.
 
-(Legacy 5:09)
+(Legacy 6:25)
 
 Here Atkinson calls the lack of an authoring environment on the web "a little difference", but elsewhere we've seen just how essential he considered the authoring aspect to be.
 
@@ -107,7 +107,7 @@ She gives an example:
 
 > My favorite stack that someone designed was a credentialed student, and he wanted to make a stack that would help new teachers understand how to do classroom management. He didn't make a tutorial, what he made was a simulation, which said "you're at the front of the class, a student in the back starts throwing his pencil, what do you do?" And then gave a tree. So it was kind of an adventure game for classroom management. And it was the best way I think to understand good and bad decisions in classroom management that I've ever seen. And the format, the platform of being able to make a decision and see--obviously, that's simulations, make a decision and see the outcome. But there's no way that I could have a student now design something like that easily without a much steeper learning curve.
 
-(Legacy 47:10)
+(Legacy 47:14)
 
 Are there really no options for creating interactive content? In 2016 Atkinson himself describes iBooks Author as a successor:
 
@@ -119,7 +119,9 @@ However, in 2020 Apple discontinued iBooks Author and recommended as a replaceme
 
 There have been a number of fairly direct successors to HyperCard, including SuperCard, MetaCard, Runtime Revolution, and curently [LiveCode](https://livecode.com/). Atkinson describes how close the last is:
 
-> LiveCode is probably the most complete sort of HyperCard-on-steroids. It's a lot more, it's not just HyperCard…It's not as easy and approachable as HyperCard was, you can't just walk up to it and have a casual relationship. You kinda have to dedicate a little time into learning how to use the system" (Legacy 1:02:40)
+> LiveCode is probably the most complete sort of HyperCard-on-steroids. It's a lot more, it's not just HyperCard…It's not as easy and approachable as HyperCard was, you can't just walk up to it and have a casual relationship. You kinda have to dedicate a little time into learning how to use the system"
+
+(Legacy 1:02:41)
 
 A quote by Bettencourt about the limitations of earlier tools applies to LiveCode as well:
 

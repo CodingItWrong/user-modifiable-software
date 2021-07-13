@@ -34,7 +34,7 @@ Bill Atkinson said:
 
 > I'm a populist. I want everybody to be empowered. I think the more people that are empowered, and particularly those that have passion about something, and they want to share it with other people--
 
-(Legacy 15:00)
+(Legacy 16:47)
 
 If the question you ask is "do users who are not developers need the ability to create or modify software," you've biased the question: you've assumed a distinction between users and developers. Instead of making that assumption, what if we just thought about people? Then the question might be "does it benefit people to empower them to create software more easily?" And I think the obvious answer is yes. We should find ways to allow developers to create software more complex than they ever have before. We should make it easier for developers to create software of the same complexity we've created before, by creating good abstractions and elimitating accidental complexity. We should make it easier for people to learn to become developers. And we should make it easier for people to create and modify software without having to become a developer.
 

@@ -22,15 +22,15 @@ The metaphor Atkinson hit upon for an interactive document was a stack of cards:
 
 > So I said, let's make a stack of cards and each card can have graphics on it, and text on it, and buttons that you can touch and they'll do something: they'll go to another card, or another card in another stack. And maybe they'll make a video go to a certain frame. There needed to be some flexibility about what the buttons did. And what I wanted to make is essentially a software construction kit that allowed non-programmers to put together prefab modules--drag and drop a field here, and a button here.
 
-(TWiT 26:22)
+(TWiT 26:42)
 
 ## Simple Tools
 
 Atkinson's focus on what functionality to put into HyperCard was a simple complete set:
 
-> …how do I choose what would be in…it was about what was needed in order to make a complete kit. You can't get an erector set that doesn't have any round things; it's not going to work. But there is a certain set of things that does make a complete and usable kit. And that's what I was always looking for, is the cleanest, simplest set of tools that would empower a lot of different things.
+> …how do I choose what would be in and not…it was about what was needed in order to make a complete kit. You can't get an erector set that doesn't have any round things; it's not going to work. But there is a certain set of things that does make a complete and usable kit. And that's what I was always looking for, is the cleanest, simplest set of tools that would empower a lot of different things.
 
-(Legacy 42:44)
+(Legacy 42:50)
 
 This simple set boiled down to mostly graphics, text, and buttons:
 
@@ -56,23 +56,23 @@ A key aspect of HyperCard's design is the concept of user levels. As a user, you
 
 Here's an introduction from Atkinson to most of the levels:
 
-- **Typing:** "[HyperCard] initially comes at 'typing', which is one of the lower levels. This is enough to use all of the stacks that come with HyperCard; it's enough to add cards to the address book and type in appointments and things like that. But there's a growth path here that you can go further than that. At the typing level, the menus are relatively simple." (BAPH 15:37)
-- **Painting:** "If you decide to go the next level, painting brings up another menu that has in it painting tools." (BAPH 18:00)
+- **Typing:** "[HyperCard] initially comes at 'typing', which is one of the lower levels. This is enough to use all of the stacks that come with HyperCard; it's enough to add cards to the address book and type in appointments and things like that. But there's a growth path here that you can go further than that. At the typing level, the menus are relatively simple." (BAPH 15:48)
+- **Painting:** "If you decide to go the next level, painting brings up another menu that has in it painting tools." (BAPH 18:41)
 - **Authoring:** "The next level is an authoring level that, when you choose that, brings up yet another menu. The objects menu lets you start to see a little of the anatomy of a stack. You can see that it consists of buttons, fields, cards, backgrounds, and the stack itself. You can get information about those. And choosing the authoring level enables the button and field tools." (BAPH 21:03)
 - **Scripting:** "Another problem happens in the erector set, which is that they never had the piece that you want: you want a particular shaped piece, and they don't have it, and they never have had it, and you don't have a sheet metal stamp, so you can't add to it. And that's where HyperCard's button library, that would be the same thing as if you went to the button library and they don't have a button that does this, and there's one that does similar to it, but not quite it. You can then modify it. That's what the next user level is all about: scripting lets you see behind the buttons and modify and enhance them. And it's okay if only a fraction of the HyperCard users learn the scripting language, because they'll make a nice library of buttons for other people to cut and paste. My experience has been a lot of people are learning the scripting language." (BAPH 32:51)
 - **Programming:** "Now the last user level isn't shown. It's sort of off the end here, and it's called programming. This programming level means you go and you buy a compiler and you learn how to write C or Pascal or assembly language and you learn how to call the Macintosh Toolkit interface, and a couple years later you're ready to write a little piece of program that can then be called from the scripting language as though it were built in. It's very easy, just as we can extend the button library by writing scripts, we can extend the scripting language by native code. So if you write a little ten-line Pascal procedure that puts out some bytes to the serial port to control, say, a video disc, then you can call that from within a script. And people can cut and paste buttons that use that without knowing about the programming side of it on the backend. In this way, HyperCard can- really, behind a button, you can have it do almost anything that the Macintosh can do." (BAPH 38:36)
 
 The levels function as a "growth path":
 
-> But there's a growth path here that you can go further than [the typing level]
->
 > If and when you decide to go beyond the typing level- …I think there are a lot of people who will be using HyperCard as an access tool to get at stacks that other people have made, and there's a gentle gradual path to allow those people to become authors of information as opposed to just users, but it's okay to stay a user of information. Think how many Walkmen Sony sells, and they don't record. HyperCard is both a playback tool and an authoring tool.
+
+(BAPH 18:01)
 
 The levels are made to build on one another. For example, at the Authoring level, before you reach Scripting, you can already work with interactive functionality by moving around buttons with the scripts that come with them:
 
 > Now, the beauty of this is that when I pasted that button, I didn't get just a picture of a button: I got its intellienge to come with it. That's half of the beauty of the erector set approach, is that you're actually moving around capability…So this is sort of how the software erector set approach works at making interactive information. You copy and paste or modify and paint yourself images until it looks the way you want it. And you copy and paste buttons until it acts the way you want it.
 
-(BAPH 31:45)
+(BAPH 31:46)
 
 At the Authoring level you can hook up basic interactivity like setting a button to navigate to a certain card. When you do this, that functionality is implemented as an automatically-generated script. As a result, when you move to the Scripting level, you can see the script that was generated, learn, and modify it:
 
@@ -104,7 +104,7 @@ One of the motivations for the high level of HyperTalk was to make the learning 
 
 > The primary requirement of the HyperTalk language was that it be readable by somebody that can look and see what was going on: 'oh on mouseup go to next card'. Somebody could see that, and maybe modify it a little bit.
 
-(Legacy 6:50)
+(Legacy 6:51)
 
 ## Use, Then Reuse, Then Tweak, Then Create From Scratch
 HyperCard stacks are open source in the sense that you can see the source, not only by downloading it separately, but right in the middle of running the program:
@@ -115,7 +115,7 @@ HyperCard stacks are open source in the sense that you can see the source, not o
 
 > Every HyperCard stack that you got had buttons and things in it, and people learned from each other, and it was kind of like an open source programming environment because people exchanged HyperCard stacks.
 
-(Legacy 6:50)
+(Legacy 7:07)
 
 The result was that you could progress from using provided stacks as-is, to customizing them, to creating something new from scratch:
 
@@ -131,7 +131,7 @@ Beyond working example stacks, there are also non-working stack ideas:
 
 > Here's a stack of stack ideas. Each of these is a little seedling for a new stack, a little template if you will.
 
-(BAPH 28:19)
+(BAPH 28:20)
 
 There are also parts kits that have standalone parts:
 
@@ -158,7 +158,7 @@ One crucial aspect of HyperCard's impact isn't in the software itself but in how
 
 > It was an exchange medium…You want people to be sharing stuff. They all have to have the software that it takes at least to play it, but hopefully to be able to author it also. So I worked out an arrangement with Apple that it would be bundled free, be in the box with every Mac…
 
-(Legacy 10:33)
+(Legacy 10:37)
 
 > What made HyperCard the ubiquitous product it was in the early 90's as opposed to the niche product SuperCard and Revolution [successors to HyperCard] are today was the fact that it was included free with every Macintosh sold. So anybody could use it to create something, then share their creation with somebody else with the confidence that the other person would be able to run it."
 
@@ -170,4 +170,4 @@ One aspect of HyperCard that is easy to miss is that persistence was automatic. 
 
 > [Users] didn't have to worry about saving the field out to the disk and all that--I take care of that. There were high-level things, automatically retained information, you put something into a field and it's there, and if you unplug the computer it's still there. In fact, that was one of my goals, I didn't like the way you had to save documents. So my idea was, if you have done something, and you unplug the computer from the wall, it has to have everything we've done up to within a few seconds. So it always was trickling stuff out…Having to save a document was a mistake.
 
-(TWiT 26:22)
+(TWiT 26:20)
