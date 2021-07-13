@@ -9,6 +9,7 @@ title: 'Bibliography'
 - [Design Principles Behind Smalltalk](https://www.cs.virginia.edu/~evans/cs655/readings/smalltalk.html) - Dan Ingalls (article)
 - [The Legacy of Apple HyperCard with Bill Atkinson](https://www.youtube.com/watch?v=ejdgTVj7ZG8) (video)
 - [Oral History of Adele Goldberg](https://www.youtube.com/watch?v=IGNiH85PLVg) - Computer History Museum (video)
+- [*Pharo By Example*](https://books.pharo.org/updated-pharo-by-example/) (book)
 - [Rise and Fall of Commercial Smalltalk](http://www.wirfs-brock.com/allen/posts/914) - Allen Wirfs-Brock, Thoughts and Things (article)
 - [Smalltalk Reflections #002: What is Smalltalk?](https://smalltalkreflections.blogspot.com/2014/12/smalltalk-reflections-002-what-is.html) (audio)
 - [Smalltalk Reflections #004: Image Based Development](https://smalltalkreflections.blogspot.com/2014/12/smalltalk-reflections-004-image-based.html) (audio)
