@@ -1,0 +1,9 @@
+blockquote {
+  font-size: inherit;
+  font-style: inherit;
+  letter-spacing: 0;
+}
+
+blockquote i, blockquote em {
+  font-style: italic;
+}
