@@ -97,7 +97,7 @@ Vano writes:
 
 (xTalk, Vano)
 
-A guest at *The Legacy of Apple HyperCard* says:
+A guest at "The Legacy of Apple HyperCard" says:
 
 > There are a lot of people that wish HyperCard was still running. I used to teach it in 1990; I taught a class called "Designing Computer-Based Learning Environments," which I couldn't teach now because there is no environment or platform where I could take undergraduates with no computer experience, no programming experience at all, and bring them in and let them design things that they were passionate about teaching.
 
