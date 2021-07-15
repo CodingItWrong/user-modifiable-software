@@ -2,31 +2,45 @@
 title: 'Conclusion'
 ---
 
-Consider drawing parallels, like programming by refinement and automatic storage
+Let's consider in what ways Smalltalk and HyperCard empower people, and what we can learn from that about how we can empower users today.
 
 ***
+
+(Consider referencing programming by automatic storage)
+
 
 How do Smalltalk and HyperCard empower people?
 
-Smalltalk attempts to empower people by creating an environment that makes it easier to learn to program. When using software, you can inspect it to see what objects are behind it. To make adjustments to it or to create your own software, you will need to begin programming. Once you do, there is no limit to what you can customize, because almost everything in the Smalltalk environment is written in itself.
+Both systems empower people by removing many technical barriers between users and developers. There is no need to install and set up a complex separate environment, and configure complex build tools. If you are using the system you have the tools to develop in it and the source for the software you're using. Although there are different user levels in HyperCard, the continuum breaks down the dichotomy between user and developer: you take gradual steps and eventually find out you're scripting, or even writing externals for HyperCard in C or Pascal. In Smalltalk, there are no user levels: from the moment you send your first message to an object, you're doing what all the code in the system does, so it's all theoretically accessible to you.
 
-HyperCard attempts to empower people by maximizing your ability to create interactive software with no or minimal programming. You can first create by inspecting and modifying stacks in a graphical interface, including things like linking buttons to other cards. Then you can go further by finding buttons in stacks or libraries and copying them into your stack along with their behavior. From there you can begin scripting using the accessible HyperTalk language. At that point, though, the learning curve spikes. To extend the environment to do something that isn't built in you need to get different programming tools and program in a different language. And you can't change HyperCard itself: it's proprietary compiled software.
+This removal of barriers supports programming by refinement. In HyperCard you start creating software by making small customizations to an existing stack, then assembling new stacks from premade parts, then writing your own parts from scratch. In Smalltalk you start creating software by sending a message to an object that already exists, then you assemble objects into bigger systems, then you customize an object by adding or modifying a method, then you create classes from scratch.
 
-The effect was that HyperCard provided a smoother on-ramp to begin creating software, because you didn't need to start out programming at all. But HyperCard had a hard limit on how much you could accomplish, meaning that Smalltalk was better suited for research and ongoing evolution.
+Although the HyperTalk and Smalltalk programming languages have many differences, they both placed a higher priority than other contemporary languages on easy readability by people, including non-technical people. This was in service to both helping people learn to program and removing low-level implementation details, allowing people to focus on the software they were building.
 
-HyperCard created a dynamic environment by imposing constraints: a limited set of primitives you can graphically lay out and program. As a result, it created a hobbyist programming segment. Smalltalk created a dynamic environment with very few constraints, by building up from a low level with a dynamic setup. This allowed rapid innovation leading to today's graphical computing paradigms. In the middle is traditional compiled development. It has the same lack of constraints as Smalltalk but is much higher effort to develop in, making it hard to broadly innovate. Instead, traditional development advances by individual systems, like the web, SQL, and mobile operating systems. These paradigm shifts undercut Smalltalk by being able to be developed in a performant way, and are composable to build on top of. In other words, when you *do* get a good technology traditionally, it's much more easy to build on it.
+There is a slightly different strategy between the two systems: Smalltalk attempts to empower people to learn to program, whereas HyperCard attempts to empower people to create software *without* learning to program until absolutely necessary.
 
-The result is a spectrum where on one end is hobby development which is best suited to dynamic environments, in the middle is commercial development which is best suited to compilation, and at the other end is research which is best suited to dynamic environments.
+In Smalltalk, the code is primary, and everything comes from the code. If you're using software in Smalltalk, you can inspect it to see what objects are behind it. To make adjustments to it or to create your own software, you will need to begin programming. Once you do, there is no limit to what you can customize, because almost everything in the Smalltalk environment is written in itself.
+
+HyperCard, by contrast, is designed to make it easy for you to modify and create software without programming at first. You can firs inspect and modify stacks using a graphical interface, including things like linking buttons to other cards. Then you can go further by finding buttons in stacks or libraries and copying them into your stack along with their behavior. From there you can begin scripting using the accessible HyperTalk language. At that point, though, the learning curve spikes. To extend the environment to do something that isn't built in you need to get different programming tools and program in a different language. And you can't change HyperCard itself: it's proprietary compiled software.
+
+The result was that HyperCard empowered a lot of non-programmers to create and distribute software via stacks, something that didn't happen so much in Smalltalk. Smalltalk empowered a significant amount of commercial software, and continues to empower research. But maybe more enduringly, Smalltalk empowered the creation of agile practices. Its flexibility allowed and inspired new ways of thinking about software development itself. Once they were invented, agile practices could be applied to less flexible languages than Smalltalk--not everyone needs to invent new software development methodologies.
 
 ***
 
-The things that traditional software don't support that HyperCard and Smalltalk do: is there a need for them? Do many users need to customize their software? Do many users need to create interactive experiences?
+Looking to the present and future, is there a need for the kind of empowerment that Smalltalk and HyperCard provided? Do many users need to customize their software? Do many users need to create interactive experiences?
 
-It would be easy to look at market pressures and say that the answer is no. Commercial and traditional source-code-based open-source software is sufficient for most users most of the time, including the customization settings they offer. And the benefits of those environments for providing full-featured functionality outweigh any slight benefits that customization might provide. And people don't want or need to create interactive experiences: they want to create documents and post to social media.
+1. Maybe there is not currently a need for any of the ways Smalltalk and HyperCard empower users.
+2. Maybe there is a need, and HyperCard or Smalltalk themselves meet that need as they are.
+3. Maybe there is a need, but it's a need that is not possible to meet given today's constraints.
+4. Maybe enhanced tools or new tools are needed to meet the need.
 
-I think there are a few reasons not to take this view. First of all, the fact that people make do with limitations in software doesn't mean it's ideal. People adapt to what they're presented with, even to the extent of handling things that are significantly harmful to them. Instead of forcing users to adapt to software, it would be ideal if people could adapt their software to themselves.
+Let's consider these possibilities in turn.
 
-As an example of adapting software to yourself, I recently switched from using Twitter to Mastodon, an open-source social network. I found a certain feature, the "federated timeline", that I usually regretted looking at due to content I objected to, but I found myself continually tempted to check it to pass the time. I couldn't find a client app that provided a setting for me to hide the federated timeline. So I forked an open-source iOS client app and made a one-line change to remove the button to show the federated timeline. This has resulted in a much better experience for my mental health. Instead of needing to exert the effort to resist the temptation to tap that button, or endure the consequences of looking at content I didn't want to, I was able to adapt my software to meet my needs. Now, I was only able to jump through the hoops to accomplish this this because I've done iPhone development in the past; non-developers don't have this option.
+First, **1. Maybe there is not currently a need for any of the ways Smalltalk and HyperCard empower users.**
+
+It would be easy to draw this conclusion by looking at market pressures. Commercial and traditional source-code-based open-source software is sufficient for most users most of the time, including the customization settings they offer. And the benefits of those environments for providing full-featured functionality outweigh any slight benefits that customization might provide. And people don't want or need to create interactive experiences: they want to create documents and post to social media.
+
+I think there are a few reasons not to take this view. First of all, the fact that people make do with limitations in software doesn't mean it's ideal. People adapt to what they're presented with, even to the extent of handling things that are significantly harmful to them. Instead of forcing users to adapt to software, it would be ideal if people could adapt their software to themselves. As an example of adapting software to yourself, I use an open-source social network, and when I found a feature of it wasn't helpful to my stress level, instead of just dealing with it, I forked the client and removed that feature. I was only able to do this because I'm a professional software developer with experience with the technical stack it's written in. If we could empower more users to customize their software, more of them would benefit in this way.
 
 Second, Henry Ford and Steve Jobs famously designed products based not on what people were asking for but based on a vision for what they would really benefit from. Now, I'm no visionary like Ford or Jobs, but I don't have to be: all I have to do is look at the impact Smalltalk and HyperCard have had in the past. I read the examples of children and non-technical users creating things in Smalltalk and HyperCard, the ways that salespeople could record what they knew to automate a process, the way a student-teacher was able to create a simulation to teach others. When I read these, I see the potential that regular people have to use the power of the computer to make their lives and others' lives better, if they're only given software that empowers them.
 
@@ -38,9 +52,21 @@ Bill Atkinson said:
 
 If the question you ask is "do users who are not developers need the ability to create or modify software," you've biased the question: you've assumed a distinction between users and developers. Instead of making that assumption, what if we just thought about people? Then the question might be "does it benefit people to empower them to create software more easily?" And I think the obvious answer is yes. We should find ways to allow developers to create software more complex than they ever have before. We should make it easier for developers to create software of the same complexity we've created before, by creating good abstractions and elimitating accidental complexity. We should make it easier for people to learn to become developers. And we should make it easier for people to create and modify software without having to become a developer.
 
-One of the powerful things about HyperCard and Smalltalk is that there are no technical barriers between users and developers. There is no need to install and set up a complex separate environment, and configure complex build tools. In HyperCard, you're a user, and you're at a certain user level. Some users are at typing level, and others are at authoring, others scripting. And even if you're programming to create a custom function or command, that's all in service of being a HyperCard user. In Smalltalk, your software runs in the same environment you program it in.
+**2. Maybe there is a need, and HyperCard or Smalltalk themselves meet that need as they are.**
 
-***
+For HyperCard, the answer seems clear: it would be difficult to make the argument that HyperCard itself fully meets the need of empowering users. It does not run on modern hardware or operating systems, is discontinued commercial software, and as a result has significant downsides that have not been updated over the course of almost 20 years.
+
+HyperCard's successor LiveCode does empower developers to compile apps cross-platform in a high-abstraction programming language, but it doesn't empower Bill Atkinson's growth path, where non-programmers use others' creations, customize them, learn from them, and eventually build their own.
+
+Smalltalk is still empowering researchers in dynamic programming environments. But the fact that it doesn't run on mobile devices limits the ability of non-programmers to create software they can use where they are. And a lack of refinement in UI libraries and documentation makes it difficult for non-programmers to pick up.
+
+**3. Maybe there is a need, but it's a need that is not possible to meet given today's constraints.**
+
+Is this the conclusion we need to come to? Do Apple's phone restrictions and the expectations of users mean that it's not possible to empower users to customize their software?
+
+I don't think it's categorically impossible. I think we can describe what it would look like to meet these needs:
+
+**4. Maybe enhanced tools or new tools are needed to meet the need.**
 
 If we argue that it would be beneficial for users to have the ability to modify their software, then what would it take to create a modern platform to do so? It would need to have the following attributes:
 
@@ -50,9 +76,17 @@ If we argue that it would be beneficial for users to have the ability to modify 
 - When a user is using the software, they would need to already have all the tools they need to inspect it and modify it.
 - There would need to be a way to make ongoing development and maintenance economical, even though it would not be possible to charge for the platform so that it can function as an exchange medium. Presumably, it would need to be open source.
 
+Can existing tools meet this need?
+
+- Squeak and Pharo run only on desktop computers, not mobile phones
+- [SqueakJS](https://squeak.js.org/) allows normal Squeak images to run in a browser. This is helpful for compatibility purposes, but most Squeak images are too heavyweight for normal web app use, and it's difficult to see how you could save changes to an image when the browser doesn't support that. (Confirming with SqueakJS Slack)
+- [Amber](https://amber-lang.net/) is a Smalltalk-based language that compiles to JavaScript that has access to the DOM. This makes building browser applications in it feasible. But Amber only writes out source files in development mode, and doesn't allow modifying the system in production. (Confirming with Amber gitter) Also in my assessment Amber hasn't been able to draw a critical mass of developers to be able to equip it with rich documentation and a library ecosystem.
+
 None of these needs are technically insurmountable. There is some creativity required around figuring out what toolkit of functionality is useful and what mechanism of sharing works best. The main challenge is economic: can something be created that is useful enough to bootstrap enough interest to get community support to continue open source development? It remains to be seen.
 
 ***
+
+(FINAL CONCLUSION, KEEP THIS)
 
 Alan Kay, one of the creators of Smalltalk, famously takes a long-term view on computing. In "The Computer Revolution Hasn't Happened Yet" he describes what it would take for computing to reach its destiny, allowing computational complexity to scale by factors of a trillion, to match the computational complexity that already happens in living organisms. I don't have the foresight to assess that view or make my own prediction for what the far future of computing should be. But I can do what Bill Atkinson suggested and "make ethical and aesthetic choices about different futures."
 
