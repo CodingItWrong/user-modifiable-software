@@ -7,3 +7,8 @@ blockquote {
 blockquote i, blockquote em {
   font-style: italic;
 }
+
+hr {
+  border-color: #ccc;
+  margin-bottom: 15px;
+}
