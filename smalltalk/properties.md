@@ -42,6 +42,18 @@ An impact of both types of storage management is apparent in the code:
 
 This concept is related to levels of abstraction and expressive code. Smalltalk code represents the conceptual objects, and little attention needs to be paid to allocating memory or to serializing or deserializing data.
 
+## Integrated Environment
+On most development platforms, there are boundaries between your tooling, your source code, the underlying language/libraries, your compiled program, and the debugger.
+
+In Smalltalk, most of the barriers between these are removed. This has many impacts:
+
+- Instead of running a full "program", you can send messages to objects and see how they respond. This can lead to a design approach where you have highly composable objects that work in many contexts, not just in one particular program.
+- Anywhere there is text, you can select it and choose "do it" to execute it as Smalltalk code. This includes in comments and in terminal output.
+- When you run into an error running your program locally, the debugger launches. You can inspect the state of your objects that led to the error. You can send them messages and see how they respond. Instead of having to imagine how your program is while running, you can see and interact with exactly what's happening as it runs. You can also add or modify methods and then continue the program running. There's a common pattern of "programming by ???" where you write the method you wish you had, run the code, then Smalltalk allows you to implement that method and then continue execution.
+- When an error occurs in production, you can save the state of the image, so that you can use that for troubleshooting. You don't need to try to do enough logging to reproduce a complex production state; you have the state exactly.
+- You can pull up the source for "core" Smalltalk classes as easily as you can for your own classes, to learn how they work. You can also add methods to those classes just as easily, or modify existing methods.
+- You can see the source of your tooling environment as well. You can modify it to extend it to meet your needs.
+
 ## Programming By Refinement
 Smalltalk's architecture supports what Adele Goldberg describes as "programming by refinement:"
 
