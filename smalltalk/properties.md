@@ -73,6 +73,10 @@ As suggested in Goldberg's quote, extending software happens in Smalltalk in sev
 - Classes can be extended. Both your own classes and classes that are "built in" to Smalltalk (of which there is little distinction) can have methods added to them, or changed in them.
 - Changes like the above happen live. Methods are compiled individually when saved, without needing to recompile a whole program. The new code is available right away to objects in memory.
 
+> This type of "programming by modification" is common in Smalltalk. (Indeed; this is the way people do it in all languages; Smalltalk just makes it easy.)
+
+(*Taste* 54.)
+
 ## Self-Contained UI
 The original Smalltalks controlled the graphical user interface because they *invented* it: there was no pre-existing GUI. Some commercial Smalltalks did work with native operating system widgets. But the Squeak project took a different approach:
 
