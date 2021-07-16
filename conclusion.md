@@ -6,9 +6,6 @@ Let's consider in what ways Smalltalk and HyperCard empower people, and what we 
 
 ***
 
-(Consider referencing automatic storage)
-
-
 How do Smalltalk and HyperCard empower people?
 
 Both systems empower people by removing many technical barriers between users and developers. Modifying your software doesn't require installing and setting up a complex separate environment, and configuring complex build tools. If you are using the system, you have the tools to develop in it and the source for the system. Although there are different user levels in HyperCard, this serves to provide small steps from user to developer: you take gradual steps and eventually find out you're programming. In Smalltalk, there are no user levels: from the moment you send your first message to an object, you're doing what all the code in the system does, so it's all theoretically accessible to you.
