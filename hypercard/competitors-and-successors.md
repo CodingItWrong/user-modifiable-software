@@ -26,7 +26,7 @@ As HyperCard illustrated what *could* be done in these areas, gradually other sp
 
 Freedman describes how HyperCard filled a need for entry-level programming that has since partially been filled by other languages:
 
-> "Back then, you needed to learn a low-level programming language (C/C++/Pascal) if you wanted to create something for your Mac. You needed to be a "professional" programmer. HyperCard finally provided entry-level and hobbyist programmers with an option. Things are very different today, however. Hobbyists now have so many options: Ruby, Python, RealBasic, Flash, JavaScript, etc. While I am still not convinced that they are as easy to use as HyperCard was back then, they have rendered a new HyperCard less necessary…I am still not convinced that current day options are as easy to use as HyperCard, as many of them still feel more like "programmer tools" than consumer products. So in that sense, we still need something that fills at least some of the unclaimed roles left behind by HyperCard."
+> "Back then, you needed to learn a low-level programming language (C/C++/Pascal) if you wanted to create something for your Mac. You needed to be a "professional" programmer. HyperCard finally provided entry-level and hobbyist programmers with an option. Things are very different today, however. Hobbyists now have so many options: Ruby, Python, RealBasic, Flash, JavaScript, etc. While I am still not convinced that they are as easy to use as HyperCard was back then, they have rendered a new HyperCard less necessary…many of them still feel more like "programmer tools" than consumer products. So in that sense, we still need something that fills at least some of the unclaimed roles left behind by HyperCard."
 
 (xTalk, Freedman)
 
@@ -46,7 +46,7 @@ HyperCard allowed people to share information with one another by sending each o
 
 But the relationship between HyperCard and the web goes deeper than just the use case of sharing information. The interface of the web browser itself was inspired by HyperCard. This included ViolaWWW, an early experimental browser:
 
-> Berners-Lee created his own World Wide Web browser, then released the coding library for the project so that programmers could develop their own versions…These included Pei-Yuan Wei, working on UNIX X-terminals at UC Berkeley's Experimental Computing Facility. Where did Wei derive inspiration for his "ViolaWWW" web browser? He took his lead from a program that he found fascinating, even though he did not have a Mac of his own. "HyperCard was very compelling back then, you know graphically, this hyperlink thing," Wei later recalled. "I got a HyperCard manual and looked at it and just basically took the concepts and implemented them in X-windows," which is a visual component of UNIX. The resulting browser, Viola, included HyperCard-like components: bookmarks, a history feature, tables, graphics. And, like HyperCard, it could run programs.
+> Berners-Lee created his own World Wide Web browser, then released the coding library for the project so that programmers could develop their own versions…These included Pei-Yuan Wei, working on UNIX X-terminals at UC Berkeley's Experimental Computing Facility. Where did Wei derive inspiration for his "ViolaWWW" web browser? He took his lead from a program that he found fascinating, even though he did not have a Mac of his own. "HyperCard was very compelling back then, you know graphically, this hyperlink thing," Wei later recalled. "I got a HyperCard manual and looked at it and just basically took the concepts and implemented them in X-windows," which is a visual component of UNIX. The resulting browser, Viola, included HyperCard-like components: bookmarks, a history feature, tables, graphics.
 
 (Ars)
 
@@ -54,7 +54,7 @@ But the relationship between HyperCard and the web goes deeper than just the use
 
 Mosaic, the browser that eventually developed into Netscape Navigator, was also influenced by HyperCard:
 
-> Mosaic came out six years after HyperCard, although it didn't copy any of the code. Marc Andreessen wrote me a sweet little note saying "thank you for the inspiration," just for the ideas. So, the web was instead of a stack of card, it was just pages. And pages had graphics on it, and text on it, and buttons that could take to someplace else.
+> Mosaic came out six years after HyperCard, although it didn't copy any of the code. Marc Andreessen wrote me a sweet little note saying "thank you for the inspiration," just for the ideas. So, the web was, instead of a stack of cards, it was just pages. And pages had graphics on it, and text on it, and buttons that could take to someplace else.
 
 (TWiT 28:15)
 
@@ -84,7 +84,7 @@ But the web has at least one difference from HyperCard:
 
 Here Atkinson calls the lack of an authoring environment on the web "a little difference", but elsewhere we've seen just how essential he considered the authoring aspect to be.
 
-This lack of authoring was somewhat mitigated by blogs and wikis, which allow creating web content using the same tooling it is viewed with: the browser. The difference is that this content is non-interactive, a static document. If you want to create interactive software, you need different tooling. Web-based software development environments like [CodeSandbox](https://codesandbox.io/), [Glitch](https://glitch.com/), and [replit](https://replit.com/) are starting to bridge this gap. But while they remove the complexity of setting up local development environments, they still require developers to work through complicated development tooling and workflows to create software, far more complex than HyperCard was.
+This lack of authoring was eventually somewhat mitigated by blogs and wikis, which allow creating web content using the same tooling it is viewed with: the browser. The difference is that this content is non-interactive, a static document. If you want to create interactive software, you need different tooling. Web-based software development environments like [CodeSandbox](https://codesandbox.io/), [Glitch](https://glitch.com/), and [replit](https://replit.com/) are starting to bridge this gap. But while they remove the complexity of setting up local development environments, they still require developers to work through complicated development tooling and workflows to create software, far more complex than HyperCard was.
 
 ## Customizing Software
 
@@ -119,7 +119,7 @@ Are there really no options for creating interactive content? In 2016 Atkinson h
 
 However, in 2020 Apple discontinued iBooks Author and recommended as a replacement Pages, a standard word processor with limited options for interactivity.
 
-There have been a number of fairly direct successors to HyperCard, including SuperCard, MetaCard, Runtime Revolution, and curently [LiveCode](https://livecode.com/). Atkinson describes how close the last is:
+There have been a number of fairly direct successors to HyperCard, including SuperCard, MetaCard, Runtime Revolution, and currently [LiveCode](https://livecode.com/). Atkinson describes how close the last is:
 
 > LiveCode is probably the most complete sort of HyperCard-on-steroids. It's a lot more, it's not just HyperCard…It's not as easy and approachable as HyperCard was, you can't just walk up to it and have a casual relationship. You kinda have to dedicate a little time into learning how to use the system"
 

@@ -4,9 +4,9 @@ title: 'HyperCard > Motivation'
 
 What was the goal of HyperCard, and what motivation led to it being created?
 
-Today, in the age of the interlinked web, it's hard to imagine what information siloing was like before. But there were bodies of knowledge not accessible to one another. HyperCard originated with the motivation to link this knowledge:
+Today, in the age of the interlinked web, it's hard to imagine what information siloing was like before. But there were bodies of knowledge not accessible to one another. Bill Atkinson, the creator of HyperCard, started with the motivation to link this knowledge:
 
-> And I thought, if you could at least facilitate *this*: the connection of the different bodies of knowledge, talking to each other, then there's a trickle-up effect that you might develop some wisdom on the planet. And so that's where HyperCard really came from: I thought about, how can we get the scientists to talk to the musicians, and how can we facilitate that communication?"
+> And I thought, if you could at least facilitate *this*: the connection of the different bodies of knowledge, talking to each other, then there's a trickle-up effect that you might develop some wisdom on the planet. And so that's where HyperCard really came from: I thought about, how can we [for example] get the scientists to talk to the musicians, and how can we facilitate that communication?"
 
 (TWiT 25:56)
 
@@ -18,7 +18,7 @@ A bit more concretely, Atkinson uses the language of making computers "accessibl
 
 ![Photo of Bill Atkinson introducing HyperCard in 1987](../assets/images/hypercard/motivation/bill-atkinson-1987.jpg)
 
-> At Apple I built tools to empower creative people. Even MacPaint. And I wanted to empower people to express themselves without requiring them to be heavy-duty programmers. In some way, it was kind of like liberating programming and computers from the priesthood to the layperson. I viewed what was later called HyperCard and was originally called WildCard as being a software erector set where you could plug together premade, prefab pieces and make your own kind of software without actually having to get down in the dirty and get a code generator, compiler, and linker, and all that stuff. What I liked was that a lot of people saw it that way and started making stuff.
+> At Apple I built tools to empower creative people. Even MacPaint. And I wanted to empower people to express themselves without requiring them to be heavy-duty programmers. In some way, it was kind of like liberating programming and computers from the priesthood to the layperson. I viewed what was later called HyperCard…as being a software erector set where you could plug together premade, prefab pieces and make your own kind of software without actually having to get down in the dirty and get a code generator, compiler, and linker, and all that stuff. What I liked was that a lot of people saw it that way and started making stuff.
 >
 > I've thought that people who have a passion about a particular area, when they're given a tool and they can express that, something beautiful happens. It's very different taking somebody who has already programming skills and trying to instill in them a passion. It's easier to find somebody who's already passionate about something and liberate them to express it.
 

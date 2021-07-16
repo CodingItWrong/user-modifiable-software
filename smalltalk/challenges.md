@@ -34,9 +34,9 @@ Why wasn't there the same marketing push from Smalltalk? I think a clue is found
 
 (Goldberg 58:12)
 
-ParcPlace was founded by some of the creators of Smalltalk and this did demonstrate to the commercial sector that some of the inventors cared about it. But, tellingly, Alan Kay was missing. He didn't have an interest in developing Smalltalk commercially. And I think this split focus, plus the fact that the original motivation of the Smalltalk creators wasn't commercial, was apparent to the commercial sector. This is why Smalltalkers didn't push hyperbolic marketing the way Java did.
+ParcPlace was founded by some of the creators of Smalltalk and this did demonstrate to the commercial sector that some of the inventors cared about it. But, tellingly, Alan Kay was missing. He didn't have an interest in developing Smalltalk commercially. And I think this split focus was apparent to the commercial sector.
 
-In 1997 in describing Squeak Ingalls made a point about the hope for adaptability:
+In 1997 Ingalls expressed a hope that Squeak would be a highly adaptible Smalltalk:
 
 > Therefore our ideal system would be a small, portable kernel of simple and uniform design that could be adapted rapidly to new delivery vehicles.
 
@@ -58,9 +58,7 @@ In 2001 Ingalls wrote an optimistic take on the evolution of languages:
 
 (Design)
 
-For anyone who believes that Smalltalk has a sound design, this principle is hard to square with the reality of Smalltalk's decline.
-
-In particular, theoretical benefits of Smalltalk's programming model aren't enough to influence businesses to adopt it:
+For anyone who believes that Smalltalk has a sound design, this idealistic principle is hard to square with the reality of Smalltalk's decline. In particular, whatever the theoretical benefits of Smalltalk's "sound design," those in themselves aren't enough to influence businesses to adopt it:
 
 > …our customers didn’t really care about Smalltalk, or object-based programming and design, or live programming, or any of the unique technologies Smalltalk brought to the table. They just wanted to replace those green-screens with something that looked like a Windows application.
 

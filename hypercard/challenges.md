@@ -2,13 +2,11 @@
 title: 'HyperCard > Challenges'
 ---
 
-What challenges led to HyperCard dying?
-
 HyperCard can't be run on modern operating systems; it can only be run on older Macs or by emulating an older Mac. So it's effectively dead. What challenges led to HyperCard dying?
 
-Ultimately, HyperCard was commercial software, and at a certain point it was no longer advantageous to the company that owned it to continue developing it.
+HyperCard was commercial software, and at a certain point it was no longer advantageous to the company that owned it to continue developing it.
 
-When Bill Atkinson started writing HyperCard, he arranged an agreement with Apple for Apple to potentially buy it. And Apple did in fact buy HyperCard. I haven't found any thoughts Bill shared on what he would have done with HyperCard had Apple not bought it. But there was no open source software movement at the time that could have sustained development of it. And commercializing HyperCard would have killed an essential aspect of what made HyperCard what it became, the fact that it was free and "in the box:"
+When Bill Atkinson started writing HyperCard, he arranged an agreement with Apple for them to potentially buy it. And Apple did in fact buy HyperCard. I haven't found any thoughts Bill shared on what he would have done with HyperCard had Apple not bought it. But there was no open source software movement at the time that could have sustained development of it. And commercializing HyperCard would have killed an essential aspect of what made HyperCard what it became, the fact that it was free and "in the box:"
 
 > It was an exchange medium…You want people to be sharing stuff. They all have to have the software that it takes at least to play it, but hopefully to be able to author it also. So I worked out an arrangement with Apple that it would be bundled free, be in the box with every Mac…
 
@@ -26,8 +24,8 @@ The next limitation that HyperCard underwent was Apple separating the player and
 
 (Legacy 11:07)
 
-Ultimately, HyperCard was killed entirely, because of business pressures:
+Ultimately, business pressures resulted in HyperCard being shut down entirely:
 
-> At a certain time in Apple's life Apple was close to just plain folding and they had to do some really severe pruning to keep the plant from dying. And they just sort of cut everything that wasn't essential, and said 'we're only gonna do a few things and we're gonna do them well' and HyperCard didn't make the cut. It wasn't essential. And so it kind of got abandoned."
+> At a certain time in Apple's life Apple was close to just plain folding and they had to do some really severe pruning to keep the plant from dying. And they just sort of cut everything that wasn't essential, and said "we're only gonna do a few things and we're gonna do them well" and HyperCard didn't make the cut. It wasn't essential. And so it kind of got abandoned.
 
 (Legacy 45:47)

@@ -2,7 +2,7 @@
 title: 'HyperCard > Impact'
 ---
 
-What were some people able to accomplish as a result of HyperCard?
+What were some things people were able to accomplish as a result of HyperCard?
 
 HyperCard made programming accessible to non-professionals:
 
@@ -22,7 +22,7 @@ After demonstrating a stack to help a sales representative configure a hardware 
 
 (BAPH 1:02:24)
 
-After demonstrating a stack that visually demonstrated features of the VersiCAD program:
+After showing a stack that visually demonstrated features of the VersiCAD program:
 
 > [VersiCAD] is a rather full-featured CAD program for Macintosh; it has a lot of features to be taught. And so they use a stack that teaches…just by moving over different things it's calling up different card-specific fields. The script for these is just saying 'show or hide card field so-and-so'; very simple to do, and yet you can have in this an expression of all the different tools and features in this program in a way that people can kind of get at them, and pull out those parts that they want at once. They also find this same stack to be a good advertisement for their program, because they can give away this stack, and you can explore the features of this program before you buy it, instead of afterwards.
 
@@ -36,7 +36,7 @@ Thinking back on HyperCard's legacy, Bill summarized:
 
 At that same event, a former teacher described:
 
-> My favorite stack that someone designed was a credentialed student, and he wanted to make a stack that would help new teachers understand how to do classroom management. He didn't make a tutorial, what he made was a simulation, which said 'you're at the front of the class, a student in the back starts throwing his pencil, what do you do?' And then gave a tree. So it was kind of an adventure game for classroom management. And it was the best way I think to understand good and bad decisions in classroom management that I've ever seen. And the format, the platform of being able to make a decision and see--obviously, that's simulations, make a decision and see the outcome.
+> My favorite stack that someone designed was a credentialed student, and he wanted to make a stack that would help new teachers understand how to do classroom management. He didn't make a tutorial, what he made was a simulation, which said "you're at the front of the class, a student in the back starts throwing his pencil, what do you do?" And then gave a tree. So it was kind of an adventure game for classroom management. And it was the best way I think to understand good and bad decisions in classroom management that I've ever seen. And the format, the platform of being able to make a decision and see--obviously, that's simulations, make a decision and see the outcome.
 
 (Legacy 47:14)
 

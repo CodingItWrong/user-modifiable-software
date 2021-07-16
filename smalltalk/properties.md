@@ -19,7 +19,7 @@ But what is the point of this principle? Why should it be applied, even when it 
 
 The phrase "novices who just want to experiment with their own class of numbers" is the key. We'll take it one subphrase at a time:
 
-- "Their own class of numbers." Smalltalk is designed to allow users to write their own totally different way of representing and handling numbers. This is why numbers cannot be primitives--they would not be able to be changed. But numbers are only one example: Smalltalk is designed to allow users to write their own class of *anything*, and have it interface with the rest of Smalltalk. Instead of the message "Smalltalk handles numbers this way; if you want to handle numbers differently write your own language," the message is "this Smalltalk image has this number class, but if you want to try to handle numbers differently, Smalltalk will support it."
+- "Their own class of numbers." Smalltalk is designed to allow users to write their own totally different way of representing and handling numbers. This is why numbers cannot be primitives--they would not be able to be changed. But numbers are only one example: Smalltalk is designed to allow users to write their own class of *anything*, and have it interface with the rest of Smalltalk. Smalltalk doesn't say "we handle numbers this way; if you want to handle numbers differently, write your own language." Instead, Smalltalk says "this Smalltalk image has this number class, but if you want to try to handle numbers differently, we'll support it."
 - "Novices." It is novices, not only programming language theorists, who are to be enabled to experiment with their own class of numbers.
 - "Just want to experiment." In this view, trying out a new way to handle numbers should not be a massive undertaking requiring creating one's own programming language. *A novice should be able to do a quick experiment handling numbers in a totally different way.*
 
@@ -34,9 +34,9 @@ In context, "storage management" refers to managing objects in memory:
 
 > Objects are created when expressions are evaluated, and they can be passed around by uniform reference, so that no provision for their storage is necessary in the procedures that manipulate them. When all references to an object have disappeared from the system, the object itself vanishes, and its storage is reclaimed.
 
-Although it's not explicit in "Design Principles", the handling of persisting code and data (which are the same thing in Smalltalk) is also automatic. All running objects are persisted out to the image and loaded back in from there.
+Although it's not explicit in "Design Principles", the handling of persisting code and data (which are the same thing in Smalltalk) is also automatic. All running objects are persisted out to the image on disk and loaded back in from there.
 
-An impact of both types of storage management is apparent in the code:
+An impact of both aspects of storage management is apparent in the code:
 
 > A way to find out if a language is working well is to see if programs look like they are doing what they are doing. If they are sprinkled with statements that relate to the management of storage, then their internal model is not well matched to that of humans.
 
@@ -45,21 +45,22 @@ This concept is related to levels of abstraction and expressive code. Smalltalk 
 ## Integrated Environment
 On most development platforms, there are boundaries between your tooling, your source code, the underlying language/libraries, your compiled program, and the debugger.
 
-In Smalltalk, most of the barriers between these are removed. This has many impacts:
+In Smalltalk, most of the barriers between these are removed. Your own code, Smalltalk's core classes, and the classes that implement your editor and debugger all run in the same memory, and the source for each is available and modifiable.
 
-- Instead of running a full "program", you can send messages to objects and see how they respond. This can lead to a design approach where you have highly composable objects that work in many contexts, not just in one particular program.
-- Anywhere there is text, you can select it and choose "do it" to execute it as Smalltalk code. This includes in comments and in terminal output.
-- When you run into an error running your program locally, the debugger launches. You can inspect the state of your objects that led to the error. You can send them messages and see how they respond. Instead of having to imagine how your program is while running, you can see and interact with exactly what's happening as it runs. You can also add or modify methods and then continue the program running. There's a common pattern of "programming by ???" where you write the method you wish you had, run the code, then Smalltalk allows you to implement that method and then continue execution.
+This has many impacts:
+
+- Instead of having to start up a full "program" to try something out, you can send messages to objects and see how they respond. This can lead to a design approach where you have highly composable objects that work in many contexts, not just in one particular program.
+- Anywhere there is text, you can select it and choose "do it" to execute it as Smalltalk code. This includes in comments and in transcript output.
+- When you run into an error running your program locally, the debugger launches. You can inspect the state of your objects that led to the error. You can send them messages and see how they respond. Instead of having to imagine how your program is while running, you can see and interact with exactly what's happening as it runs. You can also add or modify methods and then continue the program running. There's a common pattern of "debugging code into existence:" you send the message you wish you could send, run the code, then Smalltalk allows you to implement that method to handle that message and then continue execution.
 - When an error occurs in production, you can save the state of the image, so that you can use that for troubleshooting. You don't need to try to do enough logging to reproduce a complex production state; you have the state exactly.
-- You can pull up the source for "core" Smalltalk classes as easily as you can for your own classes, to learn how they work. You can also add methods to those classes just as easily, or modify existing methods.
-- You can see the source of your tooling environment as well. You can modify it to extend it to meet your needs.
+- You can pull up the source for "core" Smalltalk classes to learn how they work. You can also add methods to those classes just as easily, or modify existing methods.
 
 ![Screenshot of Pharo debugger informing that a method is not implemented](../assets/images/smalltalk/properties/integrated.png)
 
 ## Programming By Refinement
 Smalltalk's architecture supports what Adele Goldberg describes as "programming by refinement:"
 
-> If I give you something you can play with and extend…that’s easier than giving you nothing and saying “make something.”…When you start with an object that does something, and then you can put many objects like those together and have them interact, and then extend and make them behave a little bit differently, you can take a very incremental approach to learning how to control a computer system.
+> If I give you something you can play with and extend…that’s easier than giving you nothing and saying “make something.” …When you start with an object that does something, and then you can put many objects like those together and have them interact, and then extend and make them behave a little bit differently, you can take a very incremental approach to learning how to control a computer system.
 
 (Goldberg 14:22)
 
@@ -75,12 +76,8 @@ As suggested in Goldberg's quote, extending software happens in Smalltalk in sev
 - Classes can be extended. Both your own classes and classes that are "built in" to Smalltalk (of which there is little distinction) can have methods added to them, or changed in them.
 - Changes like the above happen live. Methods are compiled individually when saved, without needing to recompile a whole program. The new code is available right away to objects in memory.
 
-> This type of "programming by modification" is common in Smalltalk. (Indeed; this is the way people do it in all languages; Smalltalk just makes it easy.)
-
-(*Taste* 54.)
-
 ## Self-Contained UI
-The original Smalltalks controlled the graphical user interface because they *invented* it: there was no pre-existing GUI. Some commercial Smalltalks did work with native operating system widgets. But the Squeak project took a different approach:
+The original Smalltalks controlled the graphical user interface because they *invented* it: there was no pre-existing GUI. Later, after the creation of the Macintosh and Microsoft Windows, some commercial Smalltalks did work with native operating system widgets. But the Squeak project took a different approach:
 
 > At a time when the world is moving toward native host widgets, we still feel that there is power and inspiration in having all of the code for every aspect of computation and display be immediately accessible, changeable, and identical across platforms.
 

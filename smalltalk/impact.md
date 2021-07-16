@@ -2,7 +2,7 @@
 title: 'Smalltalk > Impact'
 ---
 
-What were some people able to accomplish as a result of Smalltalk?
+What were some things people were able to accomplish as a result of Smalltalk?
 
 Wirfs-Brock summarizes Smalltalk's impact in broad terms:
 
@@ -35,7 +35,7 @@ Wirfs-Brock summarizes:
 
 > Smalltalk did something more important than take over the world—it define the shape of the world!
 
-As a result, when we think "Smalltalk has declined," that's not quite correct--many things Smalltalk introduced have persisted, and it's only the things that have *not* spread and persisted that we think of as Smalltalk distinctives that have declined.
+As a result, if we say "Smalltalk has declined," that's not quite correct: many things Smalltalk introduced have persisted, and it's only the things that have *not* spread and persisted that we think of as Smalltalk distinctives that have declined.
 
 Beyond establishing these patterns, Smalltalk enabled non-technical users to create prototypes:
 

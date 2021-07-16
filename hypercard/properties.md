@@ -6,21 +6,25 @@ What defining characteristics influence how HyperCard uniquely works?
 
 ## Interactive Document
 
-The way Bill Atkinson hit upon to accomplish this was interactive documents:
-
->So what HyperCard is attempting to do here is to offer a new media that's between the application on the one hand and the document on the other. In Macintosh, a document contains information. It's made by a user and that information is relatively passive: it's acted upon by the application over here. The application has lots of interaction in it; usually not very much information. And the application can only be made by a programmer. What HyperCard offers is a new format in between--the stackware format--that has information like a document and has interaction like an application program. And yet it's simple enough that users can put them together using an approach that I call 'the software erector set.'
-
-(BAPH 4:44)
-
-This was revolutionary, because they had only *just* combined text and graphics together:
+Bill Atkinson realized that what was needed to allow non-programmers to create software was a kind of interactive document:
 
 > Now, I'd just come from a world where we pasted a tennis shoe into a MacWrite document, and now the world dealt with words and pictures. And I thought, really what you want is also interaction: you want to express something in a way that someone can interact with what you've made. An interactive document.
 
 (TWiT 26:22)
 
-The metaphor Atkinson hit upon for an interactive document was a stack of cards:
+An interactive document would exist in the space between a typical document and an application:
 
-> So I said, let's make a stack of cards and each card can have graphics on it, and text on it, and buttons that you can touch and they'll do something: they'll go to another card, or another card in another stack. And maybe they'll make a video go to a certain frame. There needed to be some flexibility about what the buttons did. And what I wanted to make is essentially a software construction kit that allowed non-programmers to put together prefab modules--drag and drop a field here, and a button here.
+> So what HyperCard is attempting to do here is to offer a new media that's between the application on the one hand and the document on the other.
+>
+> In Macintosh, a document contains information. It's made by a user and that information is relatively passive: it's acted upon by the application over here. The application has lots of interaction in it; usually not very much information. And the application can only be made by a programmer.
+>
+> What HyperCard offers is a new format in between--the stackware format--that has information like a document and has interaction like an application program. And yet it's simple enough that users can put them together using an approach that I call 'the software erector set.'
+
+(BAPH 4:44)
+
+But what exactly would an interactive document be like? The metaphor Atkinson hit upon was a stack of cards:
+
+> So I said, let's make a stack of cards and each card can have graphics on it, and text on it, and buttons that you can touch and they'll do something: they'll go to another card, or another card in another stack. And maybe they'll make a video go to a certain frame. There needed to be some flexibility about what the buttons did.
 
 (TWiT 26:42)
 
@@ -40,7 +44,7 @@ This simple set boiled down to mostly graphics, text, and buttons:
 
 There was an intentional decision to exclude more specialized functionality, such as reporting:
 
-> …reporting on portions of a stack. I know of several vendors who are putting together report-generation programs that do much fancier reporting than is in HyperCard. I didn't really want HyperCard to turn into this big grandiose database with 50 zillion things you'd have to learn about report generation.
+> …reporting on portions of a stack. I know of several vendors who are putting together report-generation programs [to extend HyperCard] that do much fancier reporting than is in HyperCard. I didn't really want HyperCard to turn into this big grandiose database with 50 zillion things you'd have to learn about report generation.
 
 (BAPH 1:19:05)
 
@@ -99,7 +103,7 @@ One effect of the user level approach is to aid gradual learning:
 
 (BAPH 1:14:33)
 
-And in fact the more visual early levels can be a bridge to the more theoretical scripting concepts:
+And in fact the more visual early levels can be a bridge to the more theoretical programming concepts:
 
 > So this is how you make these thematic threads through information. You say 'well, if he clicks here I want him to go there; if he clicks here I want him to go there.' And for a lot of people this is the beginning of branching control in a program. A lot of people who are afraid of the if/then/else construct…find it comfortable to use the linking concept here…it's a lot less foreign to most people than programming constructs
 
@@ -115,14 +119,14 @@ When you do get to scripting, the programming language you use is called HyperTa
 
 One of the motivations for the high level of HyperTalk was to make the learning path for users easier:
 
-> The primary requirement of the HyperTalk language was that it be readable by somebody that can look and see what was going on: 'oh on mouseup go to next card'. Somebody could see that, and maybe modify it a little bit.
+> The primary requirement of the HyperTalk language was that it be readable by somebody that can look and see what was going on: "oh, on mouseup go to next card". Somebody could see that, and maybe modify it a little bit.
 
 (Legacy 6:51)
 
 ## Use, Then Reuse, Then Tweak, Then Create From Scratch
 HyperCard stacks are open source in the sense that you can see the source, not only by downloading it separately, but right in the middle of running the program:
 
-> I was open source before open source was cool. You could open any button up, and see inside 'on mouseup go card 3'. See how it worked, so that you could modify it for your own use. And a lot of people made HyperCard stacks by starting with somebody else's and modifying it.
+> I was open source before open source was cool. You could open any button up, and see inside "on mouseup go card 3". See how it worked, so that you could modify it for your own use. And a lot of people made HyperCard stacks by starting with somebody else's and modifying it.
 
 (TWiT 36:05)
 
@@ -138,7 +142,7 @@ The result was that you could progress from using provided stacks as-is, to cust
 
 > What they're there for is a little bit like when you buy an erector set, it comes with boxes of parts, and it also comes with a brochure showing things built with that erector set. Like, for example, there'll be a picture of a bridge and a picture of a car. And you'll start first by building the things that are in the brochure, you'll start by building the bridge, and you play with it a bit, use it. And then after a while you'll want to customize it--you'll make a longer bridge, or one with, I dunno, prettier spans, or something like that. And in the process of doing that small customization, you're really learning how the whole thing works, how do the nuts and bolts and girders bolt together to make this thing. Later, what you've learned from that, you use to build a brand new object that wasn't in the catalog, that wasn't in the brochure--maybe you build a space ship.
 >
-> The same kind of thing happens here in the software erector set. You've got a row here of stacks that are parts kits, and a bunch of example stacks that are a brochure of things you could build. These are actually already working ones, so you don't have to build them right away, you can go ahead and use them right away. But after you've been using them, it's very easy to customize them in small ways. You start by 'oh, I wish this field had room for phone numbers'. Well, you choose the field tool, and you stretch it out a little bit. And a lot of times I've found software that I've run into has been frustrating in that, 'oh, if they only had this a little different, it would be just right for me.' And there's no way to make it perfect for everyone, unless it's adjustable to individual people. And that's what you start out with here, is adjusting or modifying the stacks that come with HyperCard, as teaching examples, and they're quite useful as they come, but they're also your teaching examples that bring you into creating your own fresh stacks.
+> The same kind of thing happens here in the software erector set. You've got a row here of stacks that are parts kits, and a bunch of example stacks that are a brochure of things you could build. These are actually already working ones, so you don't have to build them right away, you can go ahead and use them right away. But after you've been using them, it's very easy to customize them in small ways. You start by "oh, I wish this field had room for phone numbers." Well, you choose the field tool, and you stretch it out a little bit. And a lot of times I've found software that I've run into has been frustrating in that, "oh, if they only had this a little different, it would be just right for me." And there's no way to make it perfect for everyone, unless it's adjustable to individual people. And that's what you start out with here, is adjusting or modifying the stacks that come with HyperCard, as teaching examples, and they're quite useful as they come, but they're also your teaching examples that bring you into creating your own fresh stacks.
 
 (BAPH 25:12)
 
@@ -177,13 +181,13 @@ As a result of the openness of HyperCard, even the explicit teaching content is 
 
 ## In The Box
 
-One crucial aspect of HyperCard's impact isn't in the software itself but in how it was distributed. After it was released, it was included "in the box with every Mac". Atkinson considered this a necessary part:
+One crucial aspect of HyperCard's impact isn't in the software itself but in how it was distributed. After it was released, it was included "in the box with every Mac". Atkinson considered this to be necessary:
 
 > It was an exchange medium…You want people to be sharing stuff. They all have to have the software that it takes at least to play it, but hopefully to be able to author it also. So I worked out an arrangement with Apple that it would be bundled free, be in the box with every Mac…
 
 (Legacy 10:37)
 
-> What made HyperCard the ubiquitous product it was in the early 90's as opposed to the niche product SuperCard and Revolution [successors to HyperCard] are today was the fact that it was included free with every Macintosh sold. So anybody could use it to create something, then share their creation with somebody else with the confidence that the other person would be able to run it."
+> What made HyperCard the ubiquitous product it was in the early 90's as opposed to the niche product SuperCard and Revolution [successors to HyperCard] are today was the fact that it was included free with every Macintosh sold. So anybody could use it to create something, then share their creation with somebody else with the confidence that the other person would be able to run it.
 
 (xTalk, Bettencourt)
 

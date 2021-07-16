@@ -4,19 +4,19 @@ title: 'Smalltalk > Motivation'
 
 What was the goal of Smalltalk, and what motivation led to it being created?
 
-Smalltalk could be said to have two goals: a narrower goal of teaching programming, and a broader goal of supporting the creative spirit.
+Smalltalk could be said to have been motivated by two goals: a narrower goal of teaching programming, and a broader goal of supporting the creative spirit.
 
 ## Teaching Programming
 
 Buck and Latta summarize Smalltalk as follows:
 
-> Smalltalk is an object-oriented programming language, and it was developed back in the early 1970s at Xerox Parc in California. It was a team called the Learning Research Group at Xerox, and they built it mostly to teach kids how to program computers."
+> Smalltalk is an object-oriented programming language, and it was developed back in the early 1970s at Xerox PARC in California. It was a team called the Learning Research Group at Xerox, and they built it mostly to teach kids how to program computers."
 
 (SR2 2:00)
 
 ![Photo of children using Smalltalk](../assets/images/smalltalk/motivation/children.jpg)
 
-To add a bit more detail to this, it must be remembered that computers at this time were mainframes, but PARC had a vision of computers that were quite a bit different:
+To add a bit more detail to this, it must be remembered that computers at this time were quite large and expensive, but PARC had a vision of computers that were quite a bit different:
 
 > Guided by Alan Kay’s vision, Dan Ingalls along with Ted Kaehler, Adele Goldberg, Larry Tesler, and other members of the PARC Learning Research Group created Smalltalk as the software for the Dynabook, their aspirational model of a personal computer.
 
@@ -48,7 +48,7 @@ How does Smalltalk uniquely support "the creative spirit in everyone?"
 
 > Personal Mastery: If a system is to serve the creative spirit, it must be entirely comprehensible to a single individual. The point here is that the human potential manifests itself in individuals. To realize this potential, we must provide a medium that can be mastered by a single individual. Any barrier that exists between the user and some part of the system will eventually be a barrier to creative expression. Any part of the system that cannot be changed or that is not sufficiently general is a likely source of impediment.
 
-Single individuals are empowered to access all parts of the system because it is written in a single language, Smalltalk, all the way down as much as possible. Also, Smalltalk is set up so that any part of it to be changed in the same development environment. More concretely:
+Single individuals are empowered to access all parts of the system because it is written in a single language, Smalltalk, all the way down as much as possible. Also, Smalltalk is set up so that any part of it can be changed in the same development environment. More concretely:
 
 > a researcher, professor, or motivated student can examine source code for every part of the system, including graphics primitives and the virtual machine itself, and make changes immediately and without needing to see or deal with any language other than Smalltalk.
 
