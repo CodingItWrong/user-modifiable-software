@@ -81,7 +81,7 @@ The levels function as a "growth path":
 
 The levels are made to build on one another. For example, at the Authoring level, before you reach Scripting, you can already work with interactive functionality by moving around buttons with the scripts that come with them:
 
-> Now, the beauty of this is that when I pasted that button, I didn't get just a picture of a button: I got its intellienge to come with it. That's half of the beauty of the erector set approach, is that you're actually moving around capability…So this is sort of how the software erector set approach works at making interactive information. You copy and paste or modify and paint yourself images until it looks the way you want it. And you copy and paste buttons until it acts the way you want it.
+> Now, the beauty of this is that when I pasted that button, I didn't get just a picture of a button: I got its intelligence to come with it. That's half of the beauty of the erector set approach, is that you're actually moving around capability…So this is sort of how the software erector set approach works at making interactive information. You copy and paste or modify and paint yourself images until it looks the way you want it. And you copy and paste buttons until it acts the way you want it.
 
 (BAPH 31:46)
 
