@@ -54,6 +54,8 @@ In Smalltalk, most of the barriers between these are removed. This has many impa
 - You can pull up the source for "core" Smalltalk classes as easily as you can for your own classes, to learn how they work. You can also add methods to those classes just as easily, or modify existing methods.
 - You can see the source of your tooling environment as well. You can modify it to extend it to meet your needs.
 
+![Screenshot of Pharo debugger informing that a method is not implemented](../assets/images/smalltalk/properties/integrated.png)
+
 ## Programming By Refinement
 Smalltalk's architecture supports what Adele Goldberg describes as "programming by refinement:"
 

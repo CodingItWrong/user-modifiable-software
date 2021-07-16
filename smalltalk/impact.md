@@ -29,6 +29,8 @@ David Buck and Craig Latta go into some more detail about what Smalltalk introdu
 - Unit testing, and the xUnit family of testing frameworks
 - Just-in-time compiling and runtime optimization of method implementation
 
+![Screenshot of Smalltalk demonstrating graphical features](../assets/images/smalltalk/impact/gui.png)
+
 Wirfs-Brock summarizes:
 
 > Smalltalk did something more important than take over the world—it define the shape of the world!

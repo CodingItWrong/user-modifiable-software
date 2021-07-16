@@ -14,11 +14,15 @@ Buck and Latta summarize Smalltalk as follows:
 
 (SR2 2:00)
 
+![Photo of children using Smalltalk](../assets/images/smalltalk/motivation/children.jpg)
+
 To add a bit more detail to this, it must be remembered that computers at this time were mainframes, but PARC had a vision of computers that were quite a bit different:
 
 > Guided by Alan Kay’s vision, Dan Ingalls along with Ted Kaehler, Adele Goldberg, Larry Tesler, and other members of the PARC Learning Research Group created Smalltalk as the software for the Dynabook, their aspirational model of a personal computer.
 
 (WB)
+
+![Sketch of children using a Dynabook by Alan Kay](../assets/images/smalltalk/motivation/dynabook.png)
 
 In describing the later launch of Squeak, Ingalls explicitly draws a parallel between their intent there and the original intent of Smalltalk:
 

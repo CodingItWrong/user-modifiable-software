@@ -14,6 +14,8 @@ As commercial Smalltalk implementations declined in popularity, [Squeak](https:/
 
 (WB)
 
+![Screenshot of Squeak for Mac Classic](../assets/images/smalltalk/competitors-and-successors/squeak-mac.png)
+
 Unlike some Smalltalks, Squeak intentionally doesn't integrate with host operating system GUI widgets, instead running in a window. The reason is:
 
 > At a time when the world is moving toward native host widgets, we still feel that there is power and inspiration in having all of the code for every aspect of computation and display be immediately accessible, changeable, and identical across platforms.
@@ -27,6 +29,8 @@ Squeak has continued to be developed since then, and is still available on moder
 > a streamlined, more industrialized, and less research focused version of Smalltalk.
 
 (WB)
+
+![Screenshot of Pharo](../assets/images/smalltalk/competitors-and-successors/pharo.png)
 
 The book *Pharo by Example*, written by the lead maintainer of Pharo, says
 

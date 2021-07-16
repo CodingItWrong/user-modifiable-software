@@ -16,6 +16,8 @@ A bit more concretely, Atkinson uses the language of making computers "accessibl
 
 (BAPH 4:05)
 
+![Photo of Bill Atkinson introducing HyperCard in 1987](../assets/images/hypercard/motivation/bill-atkinson-1987.jpg)
+
 > At Apple I built tools to empower creative people. Even MacPaint. And I wanted to empower people to express themselves without requiring them to be heavy-duty programmers. In some way, it was kind of like liberating programming and computers from the priesthood to the layperson. I viewed what was later called HyperCard and was originally called WildCard as being a software erector set where you could plug together premade, prefab pieces and make your own kind of software without actually having to get down in the dirty and get a code generator, compiler, and linker, and all that stuff. What I liked was that a lot of people saw it that way and started making stuff.
 >
 > I've thought that people who have a passion about a particular area, when they're given a tool and they can express that, something beautiful happens. It's very different taking somebody who has already programming skills and trying to instill in them a passion. It's easier to find somebody who's already passionate about something and liberate them to express it.

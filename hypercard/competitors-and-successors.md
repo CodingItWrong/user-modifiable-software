@@ -50,6 +50,8 @@ But the relationship between HyperCard and the web goes deeper than just the use
 
 (Ars)
 
+![Screenshot of ViolaWWW browser](../assets/images/hypercard/competitors-and-successors/viola.jpg)
+
 Mosaic, the browser that eventually developed into Netscape Navigator, was also influenced by HyperCard:
 
 > Mosaic came out six years after HyperCard, although it didn't copy any of the code. Marc Andreessen wrote me a sweet little note saying "thank you for the inspiration," just for the ideas. So, the web was instead of a stack of card, it was just pages. And pages had graphics on it, and text on it, and buttons that could take to someplace else.
@@ -122,6 +124,8 @@ There have been a number of fairly direct successors to HyperCard, including Sup
 > LiveCode is probably the most complete sort of HyperCard-on-steroids. It's a lot more, it's not just HyperCard…It's not as easy and approachable as HyperCard was, you can't just walk up to it and have a casual relationship. You kinda have to dedicate a little time into learning how to use the system"
 
 (Legacy 1:02:41)
+
+![Screenshot of LiveCode editing environment](../assets/images/hypercard/competitors-and-successors/livecode.png)
 
 A quote by Bettencourt about the limitations of earlier tools applies to LiveCode as well:
 

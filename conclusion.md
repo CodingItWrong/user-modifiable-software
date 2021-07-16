@@ -64,6 +64,8 @@ Can a version of Smalltalk help? Let's consider the options:
 - [SqueakJS](https://squeak.js.org/) allows normal Squeak images to run in a browser. This is helpful for compatibility purposes, but most Squeak images are too heavyweight for normal web app use. Changes you make to the image are persisted in browser storage, but there isn't a clear path in place for how to preserve that image durably or share changes with other users.
 - [Amber](https://amber-lang.net/) is a Smalltalk-based language that compiles to JavaScript that has access to the DOM. This makes building browser applications in it feasible. But Amber only seems to allow modifying the system in development mode, whereas in production it runs off of compiled JavaScript. Also in my assessment Amber hasn't been able to draw a critical mass of developers to be able to equip it with rich documentation and a library ecosystem.
 
+![Screenshot of Amber Smalltalk class browser in web browser](./assets/images/conclusion/amber.png)
+
 So HyperCard, Smalltalk, and related tools aren't an obvious fit for empowering users in this way.
 
 **3. Maybe there is a need, but it's a need that is not possible to meet given today's constraints.**
