@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Examining Smalltalk and HyperCard as systems that empower users to modify their software.
 baseurl: "/empowering" # the subpath of your site, e.g. /blog
 url: "https://codingitwrong.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: 'G-RTT7MFMVWZ'
 
 # Build settings
 theme: minima
