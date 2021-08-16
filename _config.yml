@@ -48,6 +48,7 @@ header_pages:
 # their entries' file path in the `include:` list.
 #
 exclude:
+  - README.md
   - scratch-pad.md
   # - .sass-cache/
   # - .jekyll-cache/
