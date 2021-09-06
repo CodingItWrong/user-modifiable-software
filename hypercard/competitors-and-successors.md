@@ -133,7 +133,7 @@ A quote by Bettencourt about the limitations of earlier tools applies to LiveCod
 
 (xTalk, Bettencourt)
 
-LiveCode does have [an open source version](https://livecode.org/). But this hasn't had the same impact as HyperCard, for several reasons:
+LiveCode originally had an open source version, but it was [discontinued in 2021](https://livecode.org/). But LiveCode hasn't had the same impact as HyperCard, for several reasons:
 
 - As Atkinson said about SuperCard: "but it's not like having it in the box" (Legacy 46:33). So people would need to know to download its open source version to use it.
 - It builds compiled apps. This means that users can't tweak and modify them, they can't inspect them to see how they're written, and they don't even automatically see that they can build software using LiveCode.
