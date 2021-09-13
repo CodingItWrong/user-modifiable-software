@@ -14,5 +14,6 @@ Examining Smalltalk and HyperCard as systems that empower users to modify their 
 | [Challenges](smalltalk/challenges.html) | [Challenges](hypercard/challenges.html) |
 | [Competitors and Successors](smalltalk/competitors-and-successors.html) | [Competitors and Successors](hypercard/competitors-and-successors.html) |
 
+- [An Interview with Ted Kaehler](ted.html)
 - [Conclusion](conclusion.html)
 - [Bibliography](bibliography.html)
