@@ -23,7 +23,7 @@ author: Josh Justice
 email: jjustice@bignerdranch.com
 description: >-
   Examining Smalltalk and HyperCard as systems that empower users to modify their software.
-baseurl: "/empowering"
+baseurl: "/"
 url: "https://codingitwrong.github.io"
 google_analytics: 'G-RTT7MFMVWZ'
 
