@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Modifiable Software Systems
+title: User-Modifiable Software
 author: Josh Justice
 email: jjustice@bignerdranch.com
 description: >-
