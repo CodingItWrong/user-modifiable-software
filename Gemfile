@@ -20,5 +20,5 @@ gem 'minima', '2.5.1'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'github-pages', '~> 212'
+  # gem 'github-pages', '~> 212'
 end
