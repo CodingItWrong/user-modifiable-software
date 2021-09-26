@@ -27,3 +27,4 @@ Temporary Items
 
 _site
 .bundle
+.jekyll-cache
