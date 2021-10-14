@@ -21,7 +21,3 @@ $ bin/serve
 ## Development
 
 Site is run via [Jekyll](https://jekyllrb.com/docs/).
-
-## Deployment
-
-Site is hosted by [GitHub Pages](https://github.com/CodingItWrong/empowering/settings/pages).
