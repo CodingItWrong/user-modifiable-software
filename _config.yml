@@ -24,7 +24,7 @@ email: jjustice@bignerdranch.com
 description: >-
   Examining Smalltalk and HyperCard as systems that empower users to modify their software.
 url: "https://usermodifiable.software"
-google_analytics: 'G-RTT7MFMVWZ'
+google_analytics: 'UA-213903074-1'
 
 # Build settings
 theme: minima
