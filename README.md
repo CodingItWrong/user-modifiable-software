@@ -4,7 +4,7 @@ A web site about examining Smalltalk and HyperCard as systems that empower users
 
 ## Requirements
 
-- Ruby 3.0.2
+- Ruby 3.1.2
 
 ## Installation
 
