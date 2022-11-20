@@ -34,7 +34,7 @@ plugins:
 github_username: codingitwrong
 mastodon:
   - username: codingitwrong
-    instance: mastodon.technology
+    instance: tdd.social
 header_pages:
   - index.md
 
