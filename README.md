@@ -1,4 +1,4 @@
-# Empowering Software
+# User Modifiable Software
 
 A web site about examining Smalltalk and HyperCard as systems that empower users to modify their software.
 
