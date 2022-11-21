@@ -14,3 +14,10 @@ layout: default
   </div>
 
 </article>
+
+<script>
+  // redirect to new domain
+  if (window.location.host === 'usermodifiable.software') {
+    window.location = 'https://usermodifiable.codingitwrong.com' + window.location.pathname;
+  }
+</script>
